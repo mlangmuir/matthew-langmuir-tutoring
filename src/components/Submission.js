@@ -1,10 +1,11 @@
 import styled from 'styled-components';
 
-const Contact = () => {
+const Submission = () => {
+
     return (
         <>
             <CoverShade />
-            <Background src="/assets/vancouver-bg.jpeg" alt="vancouver-background"/>
+            <Background src="/assets/homework-bg.jpeg" alt="submission-page-background"/>
         </>
     )
 }
@@ -27,4 +28,4 @@ const Background = styled.img`
     object-fit: cover;
 `;
 
-export default Contact;
+export default Submission;

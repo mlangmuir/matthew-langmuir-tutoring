@@ -54,27 +54,25 @@ const CourseDiv = styled.div`
     margin-bottom: 75px;
 
     :hover {
-        transform: scale(0.985);
+        transform: scale(1.05);
     }
 `;
 
 const StyledLink = styled(Link)`
-    width: 800px;
-    height: 425px;
+    width: 600px;
     text-align: center;
     text-decoration: none;
 `;
 
 const Image = styled.img`
     z-index: 4;
-    width: 800px;
-    height: 425px;
+    width: 600px;
     object-fit: cover;
     border-radius: 20px;
 `;
 
 const TextDiv = styled.div`
-    width: 800px;
+    width: 600px;
     z-index: 6;
     color: white;
     line-height: 20px;
@@ -82,6 +80,7 @@ const TextDiv = styled.div`
 
 const Name = styled.h2`
     font-size: 28px;
+    line-height: 40px;
 `;
 
 const Dates = styled.h3`

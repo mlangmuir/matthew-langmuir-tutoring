@@ -58,6 +58,7 @@ const Background = styled.img`
     position: fixed;
     width: 100vw;
     height: 100vh;
+    object-fit: cover;
 `;
 
 const Title = styled.h2`

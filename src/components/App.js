@@ -5,6 +5,7 @@ import About from './About';
 import { GlobalStyle } from "./globalStyles";
 import CourseDetails from "./CourseDetails";
 import CourseMaterial from "./CourseMaterial";
+import Submission from "./Submission";
 import Contact from "./Contact";
 
 function App() {
@@ -21,6 +22,9 @@ function App() {
                 </Route>
                 <Route exact path="/course-material">
                     <CourseMaterial />
+                </Route>
+                <Route exact path="/submission">
+                    <Submission />
                 </Route>
                 <Route exact path="/contact">
                     <Contact />
