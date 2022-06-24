@@ -11,7 +11,7 @@ const CourseMaterial = () => {
                 <Title>COURSES</Title>
                 {courseArray.map((item, index) => {
                     return (
-                        <CourseDiv>
+                        <CourseDiv key={index}>
                             <StyledLink to={`courses/${item.id}`} key={`title + ${index}`}>
                                 <Image src={item.imageSrc} />
                                 <TextDiv>
@@ -43,10 +43,15 @@ const Title = styled.h1`
     margin-bottom: 50px;
     font-family: 'Fredericka the Great', cursive;
     font-size: 44px;
+
+    @media (max-width: 500px) {
+        font-size: 28px;
+    }
 `;
 
 const Wrapper = styled.div`
     z-index: 3;
+    margin-top: 50px;
     text-align: center;
 `;
 
@@ -59,7 +64,6 @@ const CourseDiv = styled.div`
 `;
 
 const StyledLink = styled(Link)`
-    width: 600px;
     text-align: center;
     text-decoration: none;
 `;
@@ -67,8 +71,15 @@ const StyledLink = styled(Link)`
 const Image = styled.img`
     z-index: 4;
     width: 600px;
+    height: 300px;
     object-fit: cover;
     border-radius: 20px;
+    margin-bottom: 5px;
+
+    @media (max-width: 650px) {
+        width: 300px;
+        height: 150px;
+    }
 `;
 
 const TextDiv = styled.div`
@@ -76,17 +87,29 @@ const TextDiv = styled.div`
     z-index: 6;
     color: white;
     line-height: 20px;
+
+    @media (max-width: 650px) {
+        width: 300px;
+    }
 `;
 
 const Name = styled.h2`
     font-size: 28px;
     line-height: 40px;
+
+    @media (max-width: 500px) {
+        font-size: 20px;
+    }
 `;
 
 const Dates = styled.h3`
     font-size: 20px;
     font-style: italic;
     font-weight: 400;
+
+    @media (max-width: 500px) {
+        font-size: 16px;
+    }
 `;
 
 const Background = styled.img`

@@ -3,24 +3,21 @@ import { Link } from 'react-router-dom';
 
 const Home = () => {
     return (
-        <Wrapper>
+        <>
             <Background src="./assets/bg-2.jpg" alt="classroom background" />
             <TextDiv>
                 <Title>Welcome to our classroom!</Title>
                 <ButtonDiv>
-                    <StyledLink exact to="/course-material">Access Course Material</StyledLink>
-                    <StyledLink exact to="/submission">Submit An Assignment</StyledLink>
+                    <StyledLink to="/course-material">Access Course Material</StyledLink>
+                    <StyledLink to="/submission">Submit An Assignment</StyledLink>
                 </ButtonDiv>
             </TextDiv>
-        </Wrapper>
+        </>
     )
 }
 
-const Wrapper = styled.div`
-
-`;
-
 const TextDiv = styled.div`
+    padding: 20px;
     width: 100%;
     height: 90%;
     color: white;
@@ -29,6 +26,10 @@ const TextDiv = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: flex-end;
+
+    @media (max-width: 855px) {
+        align-items: center;
+    }
 `;
 
 const Background = styled.img`
@@ -41,18 +42,30 @@ const Background = styled.img`
 const Title = styled.h1`
     font-family: 'Fredericka the Great', cursive;
     font-size: 64px;
-    margin-right: 20px;
+
+    @media (max-width: 855px) {
+        text-align: center;
+    }
 `;
 
 const ButtonDiv = styled.div`
     display: flex;
     flex-direction: row;
+
+    @media (max-width: 855px) {
+        justify-content: center;
+        align-items: center;
+    }
+
+    @media (max-width: 630px) {
+        flex-direction: column;
+        margin-top: 50px;
+    }
 `;
 
 const StyledLink = styled(Link)`
     font-family: 'Fredericka the Great', cursive;
     font-size: 24px;
-    margin-right: 20px;
     padding: 10px 20px;
     background-color: transparent;
     color: white;
@@ -62,7 +75,7 @@ const StyledLink = styled(Link)`
 
     :hover {
         cursor: pointer;
-        transform: scale(0.975);
+        transform: scale(1.05);
     }
 `;
 

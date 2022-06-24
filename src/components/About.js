@@ -28,6 +28,7 @@ const Wrapper = styled.div`
 
 const TextDiv = styled.div`
     z-index: 3;
+    margin-top: 50px;
     position: absolute;
     width: 600px;
     font-size: 20px;
@@ -35,6 +36,10 @@ const TextDiv = styled.div`
     padding-bottom: 50px;
     line-height: 30px;
     color: white;
+
+    @media (max-width: 650px) {
+        width: 300px;
+    }
 `;
 
 const TitleDiv = styled.div`
@@ -64,6 +69,11 @@ const Background = styled.img`
 const Title = styled.h2`
     font-family: 'Fredericka the Great', cursive;
     font-size: 44px;
+    text-align: center;
+
+    @media (max-width: 650px) {
+        font-size: 28px;
+    }
 `;
 
 const Portrait = styled.img`
@@ -72,12 +82,21 @@ const Portrait = styled.img`
     height: 400px;
     object-fit: cover;
     border-radius: 600px;
+
+    @media (max-width: 650px) {
+        width: 200px;
+        height: 200px;
+    }
 `;
 
 const Text = styled.p`
     font-size: 24px;
     text-align: justify;
     font-family: 'Exo 2', sans-serif;
+
+    @media (max-width: 650px) {
+        font-size: 20px;
+    }
 `;
 
 export default About;
