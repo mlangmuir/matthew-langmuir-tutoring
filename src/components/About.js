@@ -7,11 +7,11 @@ const About = () => {
                 <TitleDiv>
                     <Title>ABOUT THE INSTRUCTOR</Title>
                     <Portrait src="/assets/new-portfolio-photo.jpg" alt="Matthew Langmuir portrait" />
-                    <Text style={{fontWeight: '700'}}>MATTHEW LANGMUIR</Text>
+                    <Name>MATTHEW LANGMUIR</Name>
                 </TitleDiv>
                 <Text>Originally from Taipei, Matthew did most of his studies in Vancouver, graduating from the University of British Columbia in 2018 with a Bachelor of Arts in Political Science. In the years that followed, Mr. Matthew worked passionately in youth work as both a social worker and English language assistant.</Text>
                 <Text>In addition to his passion for teaching and coding, Matthew is also an avid traveller, having ventured to 27 countries across five continents. He also enjoys playing and watching hockey and soccer in his spare time.</Text>
-                <Text>Matthew is currently pursuing a diploma in web development at Concordia University and hopes to become a software developer in the near future while continuing his work in teaching!</Text>
+                <Text>Matthew is currently pursuing a diploma in web development at Concordia University and hopes to become a software developer in the near future while continuing to offer tutorials to adolescent youth.</Text>
             </TextDiv>
             <CoverShade />
             <Background src="/assets/bg-1.jpg" alt="classroom background"/>
@@ -89,8 +89,15 @@ const Portrait = styled.img`
     }
 `;
 
+const Name = styled.p`
+    font-weight: 700;
+    font-size: 28px;
+    margin: 30px 0;
+`;
+
 const Text = styled.p`
     font-size: 24px;
+    line-height: 32px;
     text-align: justify;
     font-family: 'Exo 2', sans-serif;
 

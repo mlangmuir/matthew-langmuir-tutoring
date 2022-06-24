@@ -9,19 +9,19 @@ const CourseMaterial = () => {
         <Container>
             <Wrapper>
                 <Title>COURSES</Title>
-                {courseArray.map((item, index) => {
-                    return (
-                        <CourseDiv key={index}>
-                            <StyledLink to={`courses/${item.id}`} key={`title + ${index}`}>
+                <CourseDiv>
+                    {courseArray.map((item, index) => {
+                        return (
+                            <StyledLink to={`course-material/${item.id}`} key={index}>
                                 <Image src={item.imageSrc} />
                                 <TextDiv>
                                     <Name>{item.name}</Name>
                                     <Dates>{item.dates}</Dates>
                                 </TextDiv>
                             </StyledLink>
-                        </CourseDiv>
-                    )
-                })}
+                        )
+                    })}
+                </CourseDiv>
             </Wrapper>
             <Background src="./assets/bg-3.jpg" alt="library background" />
             <CoverShade />
@@ -56,16 +56,26 @@ const Wrapper = styled.div`
 `;
 
 const CourseDiv = styled.div`
-    margin-bottom: 75px;
+    display: flex;
+    flex-direction: row;
 
-    :hover {
-        transform: scale(1.05);
+    @media (max-width: 1275px) {
+        flex-direction: column;
     }
 `;
 
 const StyledLink = styled(Link)`
     text-align: center;
     text-decoration: none;
+    padding: 0 20px;
+
+    :hover {
+        transform: scale(1.05);
+    }
+
+    @media (max-width: 1275px) {
+        margin-bottom: 75px;
+    }
 `;
 
 const Image = styled.img`
@@ -74,7 +84,8 @@ const Image = styled.img`
     height: 300px;
     object-fit: cover;
     border-radius: 20px;
-    margin-bottom: 5px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 60px 0px white;
 
     @media (max-width: 650px) {
         width: 300px;
@@ -94,6 +105,7 @@ const TextDiv = styled.div`
 `;
 
 const Name = styled.h2`
+    font-family: 'Fredericka the Great', cursive;
     font-size: 28px;
     line-height: 40px;
 
