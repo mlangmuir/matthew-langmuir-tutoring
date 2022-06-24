@@ -17,79 +17,227 @@ export const courses = {
             {
                 id: 1,
                 dates: "Jul 4 - Jul 10",
+                classDates: [
+                    "Mon, July 4",
+                    "Wed, July 6",
+                ],
                 class: [
-                    "",
+                    "Intro to Percy Jackson and Greek mythology",
+                    "Greek myth 1: Creation",
                 ],
                 homework: [
+                    "Read The Lightning Thief Chapters 1-7",
+                    "Quiz next class",
+                ],
+                attachments: [
                     "",
                 ],
-                attachments: "",
+                classTwo: [
+                    "Quiz 1 (The Lightning Thief Chapters 1-7)",
+                    "Book club discussion",
+                    "Greek myth 2: Perseus",
+                ],
+                homeworkTwo: [
+                    "Read The Lightning Thief Chapters 8-16",
+                    "Quiz next class",
+                ],
+                attachmentsTwo: [
+                    "",
+                ],
             },
             {
                 id: 2,
                 dates: "Jul 11 - Jul 17",
+                classDates: [
+                    "Mon, July 11",
+                    "Wed, July 13",
+                ],
                 class: [
-                    "",
+                    "Quiz 2 (The Lightning Thief Chapters 8-16)",
+                    "Book club discussion",
+                    "Greek myth 3: Hades",
                 ],
                 homework: [
+                    "Read The Lightning Thief Chapters 17-22",
+                    "Test on The Lightning Thief next class",
+                ],
+                attachments: [
                     "",
                 ],
-                attachments: "",
+                classTwo: [
+                    "Test 1 (The Lightning Thief)",
+                    "Book club discussion",
+                    "Greek myth 4: The Cyclops from The Odyssey",
+                ],
+                homeworkTwo: [
+                    "Read The Sea of Monsters Chapters 1-12",
+                    "Quiz next class",
+                ],
+                attachmentsTwo: [
+                    "",
+                ],
             },
             {
                 id: 3,
                 dates: "Jul 18 - Jul 24",
+                classDates: [
+                    "Mon, July 18",
+                    "Wed, July 20",
+                ],
                 class: [
-                    "",
+                    "Quiz 3 (The Sea of Monsters Chapters 1-12)",
+                    "Book club discussion",
+                    "Greek myth 5: Jason and the Golden Fleece",
                 ],
                 homework: [
+                    "Read The Sea of Monsters Chapters 13-20",
+                    "Test on The Sea of Monsters next class",
+                    "Book/movie comparison report due on July 25",
+                ],
+                attachments: [
                     "",
                 ],
-                attachments: "",
+                classTwo: [
+                    "Test 2 (The Sea of Monsters)",
+                    "Book club discussion",
+                    "Greek myth 6: The Oracle of Delphi",
+                ],
+                homeworkTwo: [
+                    "Read The Titan’s Curse Chapters 1-12",
+                    "Quiz next class",
+                    "Book/movie comparison report due next class",
+                ],
+                attachmentsTwo: [
+                    "",
+                ],
             },
             {
                 id: 4,
                 dates: "Jul 25 - Jul 31",
+                classDates: [
+                    "Mon, July 25",
+                    "Wed, July 27",
+                ],
                 class: [
-                    "",
+                    "Quiz 4 (The Titan’s Curse Chapters 1-12)",
+                    "Book club discussion",
+                    "Greek myth 7: The Twelve Labours of Hercules",
                 ],
                 homework: [
+                    "Read The Titan’s Curse Chapters 13-20",
+                    "Test on The Titan’s Curse next class",
+                ],
+                attachments: [
                     "",
                 ],
-                attachments: "",
+                classTwo: [
+                    "Test 3 (The Titan’s Curse)",
+                    "Book club discussion",
+                    "Greek myth 8: Theseus and the Minotaur",
+                ],
+                homeworkTwo: [
+                    "Read The Battle of the Labyrinth Chapters 1-8",
+                    "Quiz next class",
+                ],
+                attachmentsTwo: [
+                    "",
+                ],
             },
             {
                 id: 5,
                 dates: "Aug 1 - Aug 7",
+                classDates: [
+                    "Mon, August 1",
+                    "Wed, August 3",
+                ],
                 class: [
-                    "",
+                    "Quiz 5 (The Battle of the Labyrinth Chapters 1-8)",
+                    "Book club discussion",
+                    "Greek myth 9: Calypso The Sweet Nymph from The Odyssey",
                 ],
                 homework: [
+                    "Read The Battle of the Labyrinth Chapters 9-13",
+                    "Quiz next class",
+                ],
+                attachments: [
                     "",
                 ],
-                attachments: "",
+                classTwo: [
+                    "Quiz 6 (The Battle of the Labyrinth Chapters 9-13)",
+                    "Book club discussion",
+                    "Greek myth 10: The Trojan War",
+                ],
+                homeworkTwo: [
+                    "Read The Battle of the Labyrinth Chapters 14-20",
+                    "Test on The Battle of the Labyrinth next class",
+                ],
+                attachmentsTwo: [
+                    "",
+                ],
             },
             {
                 id: 6,
                 dates: "Aug 8 - Aug 14",
+                classDates: [
+                    "Mon, August 8",
+                    "Wed, August 10",
+                ],
                 class: [
-                    "",
+                    "Test 4 (The Battle of the Labyrinth)",
+                    "Book club discussion",
+                    "Work time: group presentation",
                 ],
                 homework: [
+                    "Read The Last Olympian Chapters 1-7",
+                    "Quiz next class",
+                ],
+                attachments: [
+                    ""
+                ],
+                classTwo: [
+                    "Quiz 7 (The Last Olympian Chapters 1-7)",
+                    "Book club discussion",
+                    "Work time: group presentation",
+                ],
+                homeworkTwo: [
+                    "Read The Last Olympian Chapters 8-16",
+                    "Quiz next class",
+                ],
+                attachmentsTwo: [
                     "",
                 ],
-                attachments: "",
             },
             {
                 id: 7,
                 dates: "Aug 15 - Aug 21",
+                classDates: [
+                    "Mon, August 15",
+                    "Wed, August 17",
+                ],
                 class: [
-                    "",
+                    "The Last Olympian Chapters 8-16",
+                    "Book club discussion",
+                    "Work time: group presentation",
                 ],
                 homework: [
+                    "Read The Last Olympian Chapters 17-23",
+                    "Test on The Last Olympian next class",
+                    "Group presentations next class",
+                ],
+                attachments: [
                     "",
                 ],
-                attachments: "",
+                classTwo: [
+                    "Test 5 (The Last Olympian)",
+                    "Book club discussion",
+                    "Group presentation",
+                ],
+                homeworkTwo: [
+                    "",
+                ],
+                attachmentsTwo: [
+                    "",
+                ],
             }
         ]
     },
@@ -121,7 +269,7 @@ export const courses = {
                     "Study for next week's quiz on The Hobbit and textbook readings",
                 ],
                 attachments: [
-                    "No attachments yet."
+                    "",
                 ],
             },
             {
@@ -138,7 +286,7 @@ export const courses = {
                     "Study for next week's quiz on The Hobbit and textbook readings",
                 ],
                 attachments: [
-                    "No attachments yet."
+                    "",
                 ],
             },
             {
@@ -155,7 +303,7 @@ export const courses = {
                     "Study for next week's quiz on The Lord of the Rings and textbook readings",
                 ],
                 attachments: [
-                    "No attachments yet."
+                    "",
                 ],
             },
             {
@@ -173,7 +321,7 @@ export const courses = {
                     "Study for quiz on this week's readings",
                 ],
                 attachments: [
-                    "No attachments yet."
+                    "",
                 ],
             },
             {
@@ -186,7 +334,7 @@ export const courses = {
                     "See homework from Week 4.",
                 ],
                 attachments: [
-                    "No attachments yet."
+                    "",
                 ],
             },
             {
@@ -205,7 +353,7 @@ export const courses = {
                     "Study for next week's quiz on The Lord of the Rings and textbook readings",
                 ],
                 attachments: [
-                    "No attachments yet."
+                    "",
                 ],
             },
             {
@@ -222,33 +370,55 @@ export const courses = {
                     "Study for next week's quiz on The Lord of the Rings and textbook readings",
                 ],
                 attachments: [
-                    "No attachments yet."
+                    "",
                 ],
             },
             {
                 id: 8,
                 dates: "Aug 16 - Aug 22",
                 class: [
-                    "",
+                    "Quiz 6 (The Return of the King Book 5 and Zoya’s Story",
+                    "Book club discussion",
+                    "Writing academic papers",
+                    "Chicago citations",                
                 ],
                 homework: [
-                    "",
+                    "Final book report due in 2 weeks",
+                    "Read The Return of the King Book 6",
+                    "Study for next week's quiz on The Lord of the Rings",
                 ],
                 attachments: [
-                    "No attachments yet."
+                    "",
                 ],
             },
             {
                 id: 9,
                 dates: "Aug 23 - Aug 29",
                 class: [
+                    "Quiz 7 (The Return of the King Book 6)",
+                    "Final book club discussion",
+                    "Movie-book comparison",
+                ],
+                homework: [
+                    "Final book report",
+                ],
+                attachments: [
                     "",
+                ],
+            },
+            {
+                id: 10,
+                dates: "Aug 30 - Sept 5",
+                class: [
+                    "Final book club discussion",
+                    "Movie-book comparison",
+                    "Unit 3 Assessment",
                 ],
                 homework: [
                     "",
                 ],
                 attachments: [
-                    "No attachments yet."
+                    "",
                 ],
             }
         ]

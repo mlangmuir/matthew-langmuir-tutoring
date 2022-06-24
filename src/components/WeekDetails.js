@@ -15,26 +15,82 @@ const WeekDetails = () => {
             <TextDiv>
                 <Title>{`WEEK ${courses[courseId.courseId].week[courseId.weekId - 1].id}`}</Title>
                 <Dates>{ weekData.dates }</Dates>
-                <SectionTitle>In class this week:</SectionTitle>
+                {weekData.classTwo &&
+                    <ClassDate>{weekData.classDates[0]}</ClassDate>
+                }
+                <SectionTitle>In class:</SectionTitle>
                 {weekData.class.map((item,index) => {
                     return (
-                        <ul>
+                        <ul key={index}>
                             <Description key={index}>{item}</Description>
                         </ul>
                     )
                 })}
-                <SectionTitle>Homework:</SectionTitle>
-                {weekData.homework.map((item,index) => {
+                {weekData.homework[0] !== "" &&
+                    <SectionTitle>Homework:</SectionTitle>
+                }
+                {weekData.homework.map((item, index) => {
                     return (
-                        <ul>
-                            <Description key={index}>{item}</Description>
-                        </ul>
+                        <div key={index}>
+                            {item !== "" &&
+                                <ul>
+                                    <Description key={index}>{item}</Description>
+                                </ul>
+                            }
+                        </div>
                     )
                 })}
-                <SectionTitle>Attachments:</SectionTitle>
-                {weekData.attachments.map((item,index) => {
-                    return <Attachments key={index}>{item}</Attachments>
+                {weekData.attachments[0] !== "" &&
+                    <SectionTitle>Attachments:</SectionTitle>
+                }
+                {weekData.attachments.map((item, index) => {
+                    return (
+                        <div key={index}>
+                            {item !== "" &&
+                                <Attachments key={index}>{item}</Attachments>
+                            }
+                        </div>
+                    )
                 })}
+                {weekData.classTwo &&
+                    <ClassTwoDiv>
+                        <ClassDate>{weekData.classDates[1]}</ClassDate>
+                        <SectionTitle>In class:</SectionTitle>
+                        {weekData?.classTwo.map((item, index) => {
+                            return (
+                                <ul key={index}>
+                                    <Description key={index}>{item}</Description>
+                                </ul>
+                            )
+                        })}
+                        {weekData?.homeworkTwo[0] !== "" &&
+                            <SectionTitle>Homework:</SectionTitle>
+                        }
+                        {weekData?.homeworkTwo.map((item, index) => {
+                            return (
+                                <div key={index}>
+                                    {item !== "" &&
+                                        <ul>
+                                            <Description key={index}>{item}</Description>
+                                        </ul>
+                                    }
+                                </div>
+                            )
+                        })}
+                        {weekData?.attachmentsTwo[0] !== "" &&
+                            <SectionTitle>Attachments:</SectionTitle>
+                        }
+                        {weekData?.attachmentsTwo.map((item, index) => {
+                            return (
+                                <div key={index}>
+                                    {item !== "" &&
+                                        <Attachments key={index}>{item}</Attachments>
+                                    }
+                                </div>
+                            )
+                        })}
+                    </ClassTwoDiv>
+                }
             </TextDiv>
             <CoverShade />
             <Background src={courses[courseId.courseId].imageSrc} alt="homework-page-background" />
@@ -55,7 +111,7 @@ const TextDiv = styled.div`
     border-radius: 8px;
     padding: 20px;
     z-index: 3;
-    margin-top: 150px;
+    margin-top: 175px;
     margin-bottom: 75px;
     color: white;
     text-align: justify;
@@ -76,6 +132,12 @@ const Dates = styled.h2`
     margin-bottom: 20px;
 `;
 
+const ClassDate = styled.h2`
+    font-family: 'Fredericka the Great', cursive;
+    font-weight: 700;
+    margin-top: 50px;
+`;
+
 const SectionTitle = styled.h3`
     font-weight: 700;
     font-size: 28px;
@@ -90,6 +152,10 @@ const Description = styled.li`
 
 const Attachments = styled.p`
     font-size: 24px;
+`;
+
+const ClassTwoDiv = styled.div`
+    margin-top: 150px;
 `;
 
 const CoverShade = styled.div`

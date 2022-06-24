@@ -16,13 +16,12 @@ const CourseDetails = () => {
                 <SectionTitle>Evaluation:</SectionTitle>
                 {courses[courseId]?.evaluation.map((item, index) => {
                     return (
-                        <Evaluation>{ item }</Evaluation>
+                        <Evaluation key={index}>{ item }</Evaluation>
                     )
                 })}
             </TextDiv>
             <WeekDiv>
             {courses[courseId].week?.map((item, index) => {
-                {console.log(item)}
                 return (
                     <StyledLink to={`${courseId}/${item.id}`} key={index}>
                         <WeekNumber>Week { item.id }</WeekNumber>
