@@ -3,27 +3,25 @@ import styled from 'styled-components';
 const Contact = () => {
     return (
         <Container>
-            <Wrapper>
-                <Form>
-                    <Title>CONTACT ME</Title>
-                    <Description>Got questions or comments? Drop me a line and I'll get back to you via email as soon as possible!</Description>
-                    <InputDiv>
-                        <label required>Name: </label>
-                        <Input type="name" placeholder=" Name" required />
-                    </InputDiv>
-                    <InputDiv>
-                        <label>Email: </label>
-                        <Input type="email" placeholder=" Email" required />
-                    </InputDiv>
-                    <InputDiv>
-                        <label>Comments:</label>
-                        <TextArea placeholder=" Enter your comments here!"></TextArea>
-                    </InputDiv>
-                    <InputDiv>
-                        <Submit id="submit" type="submit" />
-                    </InputDiv>
-                </Form>
-            </Wrapper>
+            <Form>
+                <Title>CONTACT ME</Title>
+                <Description>Got questions or comments? Drop me a line and I'll get back to you via email as soon as possible!</Description>
+                <InputDiv>
+                    <label required>Name: </label>
+                    <Input type="name" placeholder=" Name" required />
+                </InputDiv>
+                <InputDiv>
+                    <label>Email: </label>
+                    <Input type="email" placeholder=" Email" required />
+                </InputDiv>
+                <InputDiv>
+                    <label>Comments:</label>
+                    <TextArea placeholder=" Enter your comments here!"></TextArea>
+                </InputDiv>
+                <InputDiv>
+                    <Submit type="submit" />
+                </InputDiv>
+            </Form>
             <CoverShade />
             <Background src="/assets/vancouver-bg.jpeg" alt="vancouver-background"/>
         </Container>
@@ -37,15 +35,10 @@ const Container = styled.div`
     align-items: center;
 `;
 
-const Wrapper = styled.div`
-    z-index: 3;
-    display: flex;
-    align-items: center;
-    height: 100vh;
-`;
-
 const Form = styled.form`
-    padding: 0 20px;
+    z-index: 3;
+    margin-top: 150px;
+    padding: 25px 25px;
     max-width: 620px;
     font-size: 18px;
     color: white;
@@ -73,6 +66,7 @@ const Description = styled.p`
 
     @media (max-width: 500px) {
         font-size: 20px;
+        margin-bottom: 20px;
     }
 `;
 
@@ -81,6 +75,10 @@ const InputDiv = styled.div`
     flex-direction: column;
     font-size: 24px;
     margin-top: 25px;
+
+    @media (max-width: 650px) {
+        font-size: 20px;
+    }
 `;
 
 const Input = styled.input`
@@ -91,6 +89,11 @@ const Input = styled.input`
     border: none;
     border-radius: 5px;
     resize: none;
+
+    @media (max-width: 650px) {
+        font-size: 20px;
+        height: 30px;
+    }
 `;
 
 const TextArea = styled.textarea`
@@ -98,6 +101,11 @@ const TextArea = styled.textarea`
     font-size: 22px;
     border: none;
     border-radius: 5px;
+
+    @media (max-width: 650px) {
+        font-size: 20px;
+        height: 75px;
+    }
 `;
 
 const Submit = styled.input`

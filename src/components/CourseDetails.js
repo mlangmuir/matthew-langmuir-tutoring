@@ -50,12 +50,20 @@ const TextDiv = styled.div`
     z-index: 3;
     margin-top: 150px;
     color: white;
+
+    @media (max-width: 900px) {
+        width: 90%;
+    }
 `;
 
 const Title = styled.h1`
     font-family: 'Fredericka the Great', cursive;
     font-size: 42px;
     text-align: center;
+
+    @media (max-width: 500px) {
+        font-size: 28px;
+    }
 `;
 
 const Dates = styled.h2`
@@ -65,6 +73,10 @@ const Dates = styled.h2`
     font-style: italic;
     font-weight: 400;
     margin-bottom: 20px;
+
+    @media (max-width: 500px) {
+        font-size: 20px;
+    }
 `;
 
 const SectionTitle = styled.h3`
@@ -72,15 +84,28 @@ const SectionTitle = styled.h3`
     font-size: 28px;
     margin-top: 75px;
     margin-bottom: 25px;
+
+    @media (max-width: 500px) {
+        font-size: 24px;
+    }
 `;
 
 const Description = styled.p`
     font-size: 24px;
+    text-align: justify;
+
+    @media (max-width: 500px) {
+        font-size: 20px;
+    }
 `;
 
 const Evaluation = styled.li`
     line-height: 35px;
     font-size: 24px;
+
+    @media (max-width: 500px) {
+        font-size: 20px;
+    }
 `;
 
 const WeekDiv = styled.div`
@@ -91,6 +116,12 @@ const WeekDiv = styled.div`
     flex-wrap: wrap;
     margin-top: 50px;
     margin-bottom: 75px;
+
+    @media (max-width: 900px) {
+        width: 90%;
+        flex-direction: column;
+        align-items: center;
+    }
 `;
 
 const StyledLink = styled(Link)`

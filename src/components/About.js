@@ -9,7 +9,7 @@ const About = () => {
                     <Portrait src="/assets/new-portfolio-photo.jpg" alt="Matthew Langmuir portrait" />
                     <Name>MATTHEW LANGMUIR</Name>
                 </TitleDiv>
-                <Text>Originally from Taipei, Matthew did most of his studies in Vancouver, graduating from the University of British Columbia in 2018 with a Bachelor of Arts in Political Science. In the years that followed, Mr. Matthew worked passionately in youth work as both a social worker and English language assistant.</Text>
+                <Text>Originally from Taipei, Matthew did most of his studies in Vancouver, graduating from the University of British Columbia in 2018 with a Bachelor of Arts in Political Science. In the years that followed, Matthew worked passionately in youth work as both a social worker and English language assistant.</Text>
                 <Text>In addition to his passion for teaching and coding, Matthew is also an avid traveller, having ventured to 27 countries across five continents. He also enjoys playing and watching hockey and soccer in his spare time.</Text>
                 <Text>Matthew is currently pursuing a diploma in web development at Concordia University and hopes to become a software developer in the near future while continuing to offer tutorials to adolescent youth.</Text>
             </TextDiv>

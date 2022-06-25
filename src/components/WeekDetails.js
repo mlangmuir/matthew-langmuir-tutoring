@@ -122,12 +122,20 @@ const TextDiv = styled.div`
     margin-bottom: 75px;
     color: white;
     text-align: justify;
+
+    @media (max-width: 700px) {
+        width: 90%;
+    }
 `;
 
 const Title = styled.h1`
     font-family: 'Fredericka the Great', cursive;
     font-size: 42px;
     text-align: center;
+
+    @media (max-width: 600px) {
+        font-size: 28px;
+    }
 `;
 
 const Dates = styled.h2`
@@ -137,12 +145,20 @@ const Dates = styled.h2`
     font-style: italic;
     font-weight: 400;
     margin-bottom: 20px;
+
+    @media (max-width: 600px) {
+        font-size: 20px;
+    }
 `;
 
 const ClassDate = styled.h2`
     font-weight: 700;
     margin-top: 100px;
     text-align: center;
+
+    @media (max-width: 600px) {
+        font-size: 24px;
+    }
 `;
 
 const SectionTitle = styled.h3`
@@ -150,10 +166,18 @@ const SectionTitle = styled.h3`
     font-size: 28px;
     margin-top: 75px;
     margin-bottom: 25px;
+
+    @media (max-width: 600px) {
+        font-size: 22px;
+    }
 `;
 
 const Description = styled.li`
     font-size: 24px;
+
+    @media (max-width: 600px) {
+        font-size: 20px;
+    }
 `;
 
 const ClassTwoDiv = styled.div`
