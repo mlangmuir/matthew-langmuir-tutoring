@@ -30,7 +30,7 @@ export const courses = {
                     "Quiz next class",
                 ],
                 attachments: [
-                    "",
+                    "week-bg.jpg",
                 ],
                 classTwo: [
                     "Quiz 1 (The Lightning Thief Chapters 1-7)",

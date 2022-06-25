@@ -1,6 +1,8 @@
 import styled from 'styled-components';
 import { useParams } from 'react-router-dom';
 import { courses } from '../data';
+import Axios from 'axios';
+import FileDownload from "js-file-download"
 
 const WeekDetails = () => {
 
@@ -9,6 +11,17 @@ const WeekDetails = () => {
     const weekData = courses[courseId.courseId].week[courseId.weekId - 1];
 
     console.log(weekData)
+
+    const download = (e) => {
+        e.preventDefault();
+        Axios({
+            url:"http://localhost:3000",
+            method: "GET",
+            responseType: "blob",
+        }).then((res) => {
+            FileDownload(res.data,`${weekData.attachments[0]}`)
+        })
+    }
 
     return (
         <Container>
@@ -40,14 +53,11 @@ const WeekDetails = () => {
                         </div>
                     )
                 })}
-                {weekData.attachments[0] !== "" &&
-                    <SectionTitle>Attachments:</SectionTitle>
-                }
                 {weekData.attachments.map((item, index) => {
                     return (
                         <div key={index}>
                             {item !== "" &&
-                                <Attachments key={index}>{item}</Attachments>
+                                <Button onClick={(e)=> download(e)}>Download Homework</Button>
                             }
                         </div>
                     )
@@ -77,14 +87,11 @@ const WeekDetails = () => {
                                 </div>
                             )
                         })}
-                        {weekData?.attachmentsTwo[0] !== "" &&
-                            <SectionTitle>Attachments:</SectionTitle>
-                        }
                         {weekData?.attachmentsTwo.map((item, index) => {
                             return (
                                 <div key={index}>
                                     {item !== "" &&
-                                        <Attachments key={index}>{item}</Attachments>
+                                        <Button onClick={(e)=> download(e)}>Download Homework</Button>
                                     }
                                 </div>
                             )
@@ -107,7 +114,7 @@ const Container = styled.div`
 `;
 
 const TextDiv = styled.div`
-    width: 900px;
+    width: 700px;
     border-radius: 8px;
     padding: 20px;
     z-index: 3;
@@ -133,9 +140,9 @@ const Dates = styled.h2`
 `;
 
 const ClassDate = styled.h2`
-    font-family: 'Fredericka the Great', cursive;
     font-weight: 700;
-    margin-top: 50px;
+    margin-top: 100px;
+    text-align: center;
 `;
 
 const SectionTitle = styled.h3`
@@ -147,15 +154,26 @@ const SectionTitle = styled.h3`
 
 const Description = styled.li`
     font-size: 24px;
-    margin-left: -10px;
-`;
-
-const Attachments = styled.p`
-    font-size: 24px;
 `;
 
 const ClassTwoDiv = styled.div`
     margin-top: 150px;
+`;
+
+const Button = styled.button`
+    margin-top: 20px;
+    height: 45px;
+    padding: 0 15px;
+    background-color: #999900;
+    color: white;
+    font-size: 22px;
+    border: none;
+    border-radius: 8px;
+
+    :hover {
+        cursor: pointer;
+        opacity: 75%;
+    }
 `;
 
 const CoverShade = styled.div`

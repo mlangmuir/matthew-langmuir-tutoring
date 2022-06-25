@@ -2,6 +2,7 @@ import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
 const Home = () => {
+
     return (
         <>
             <Background src="./assets/bg-2.jpg" alt="classroom background" />
