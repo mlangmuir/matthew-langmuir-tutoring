@@ -7,7 +7,7 @@ const Submission = () => {
             <Wrapper>
                 <Form>
                     <Title>SUBMIT YOUR ASSIGNMENT</Title>
-                    <Description>Please attach either a PDF, Word or Pages file.</Description>
+                    <Description>Please upload either a PDF, Word or Pages file.</Description>
                     <InputDiv>
                         <label required>Name: </label>
                         <Input type="name" placeholder=" Name" required />
