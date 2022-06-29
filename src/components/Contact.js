@@ -1,38 +1,41 @@
 import styled from 'styled-components';
-import { useState } from 'react';
+import { useRef, useState } from 'react';
+import emailjs from "emailjs-com";
 
 const Contact = () => {
+    const form = useRef();
 
-    const [name, setName] = useState("");
-    const [email, setEmail] = useState("");
-    const [comments, setComments] = useState("");
-    const [loading, setLoading] = useState(false);
+    const [sendSuccess, setSendSuccess] = useState(false);
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        try {
-            setLoading(true);
-        } catch(err) {
-            
-        }
+
+        // params: ('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY')
+        emailjs.sendForm('gmail', 'template_wxm3g3r', form.current, 'wVbfUlRQ5_wlcZvJ0')
+            .then((result) => {
+                setSendSuccess(true);
+            }, (error) => {
+                alert("An error has occurred. Please try again!")
+            });
     }
 
     return (
         <Container>
-            <Form onSubmit={handleSubmit}>
+            {sendSuccess && <Confirmation><p>Thank you for contacting me. I will be replying to you by email as soon as possible!</p></Confirmation>}
+            <Form onSubmit={handleSubmit} ref={form} style={{display: sendSuccess === true && "none"}}>
                 <Title>CONTACT ME</Title>
                 <Description>Got questions or comments? Drop me a line and I'll get back to you via email as soon as possible!</Description>
                 <InputDiv>
                     <label required>Name: </label>
-                    <Input onChange={(e) => setName(e.target.value)} type="name" placeholder=" Name" required />
+                    <Input type="name" placeholder=" Name" name="name" required />
                 </InputDiv>
                 <InputDiv>
                     <label>Email: </label>
-                    <Input onChange={(e) => setEmail(e.target.value)} type="email" placeholder=" Email" required />
+                    <Input type="email" placeholder=" Email" name="email" required />
                 </InputDiv>
                 <InputDiv>
                     <label>Comments:</label>
-                    <TextArea onChange={(e) => setComments(e.target.value)} placeholder=" Enter your comments here!"></TextArea>
+                    <TextArea placeholder=" Enter your comments here!" name="comments" required></TextArea>
                 </InputDiv>
                 <InputDiv>
                     <Submit type="submit" />
@@ -49,6 +52,17 @@ const Container = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
+`;
+
+const Confirmation = styled.div`
+    z-index: 6;
+    height: 100vh;
+    width: 40%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    font-size: 32px;
+    color: white;
 `;
 
 const Form = styled.form`
