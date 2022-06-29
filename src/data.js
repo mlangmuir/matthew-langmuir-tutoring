@@ -23,23 +23,25 @@ export const courses = {
                 ],
                 class: [
                     "Intro to Percy Jackson and Greek mythology",
-                    "Greek myth 1: Creation",
-                ],
-                homework: [
-                    "Read The Lightning Thief Chapters 1-7",
-                    "Quiz next class",
-                ],
-                attachments: [
-                    "week-bg.jpg",
-                ],
-                classTwo: [
-                    "Quiz 1 (The Lightning Thief Chapters 1-7)",
                     "Book club discussion",
+                    "Greek myth 1: Creation",
                     "Greek myth 2: Perseus",
                 ],
+                homework: [
+                    "Finish reading The Lighting Thief",
+                    "Test on The Lightning Thief, Creation and Perseus next class",
+                ],
+                attachments: [
+                    "",
+                ],
+                classTwo: [
+                    "Test 1 (The Lightning Thief, Creation and Perseus)",
+                    "Book club discussion",
+                    "Greek myth 3: Hades",
+                ],
                 homeworkTwo: [
-                    "Read The Lightning Thief Chapters 8-16",
-                    "Quiz next class",
+                    "Read The Sea of Monsters Chapters 1-12",
+                    "Quiz on The Sea of Monsters Chapters 1-12 and Hades next class",
                 ],
                 attachmentsTwo: [
                     "",
@@ -53,25 +55,26 @@ export const courses = {
                     "Wed, July 13",
                 ],
                 class: [
-                    "Quiz 2 (The Lightning Thief Chapters 8-16)",
+                    "Quiz 1 (The Sea of Monsters Chapters 1-12)",
                     "Book club discussion",
-                    "Greek myth 3: Hades",
+                    "Greek myth 4: The Cyclops from The Odyssey",
                 ],
                 homework: [
-                    "Read The Lightning Thief Chapters 17-22",
-                    "Test on The Lightning Thief next class",
+                    "Read The Sea of Monsters Chapters 13-20",
+                    "Test on The Sea of Monsters and The Cyclops from the Odyssey next class",
+                    "Book/movie comparison report due in one week",
                 ],
                 attachments: [
                     "",
                 ],
                 classTwo: [
-                    "Test 1 (The Lightning Thief)",
+                    "Test 1 (The Sea of Monsters and The Cyclops from The Odyssey)",
                     "Book club discussion",
-                    "Greek myth 4: The Cyclops from The Odyssey",
+                    "Greek myth 5: Jason and the Golden Fleece",
                 ],
                 homeworkTwo: [
-                    "Read The Sea of Monsters Chapters 1-12",
-                    "Quiz next class",
+                    "Book-movie comparison report due next class",
+                    "Quiz on Jason and the Golden Fleece next class",
                 ],
                 attachmentsTwo: [
                     "",
@@ -85,27 +88,26 @@ export const courses = {
                     "Wed, July 20",
                 ],
                 class: [
-                    "Quiz 3 (The Sea of Monsters Chapters 1-12)",
+                    "Quiz 3 (Jason and the Golden Fleece)",
+                    "Book-movie comparison presentation",
                     "Book club discussion",
-                    "Greek myth 5: Jason and the Golden Fleece",
+                    "Greek myth 6: The Oracle of Delphi",
                 ],
                 homework: [
-                    "Read The Sea of Monsters Chapters 13-20",
-                    "Test on The Sea of Monsters next class",
-                    "Book/movie comparison report due on July 25",
+                    "Read The Titan’s Curse Chapters 1-8",
+                    "Quiz on The Titan’s Curse Chapters 1-8 and The Oracle of Delphi next class",
                 ],
                 attachments: [
                     "",
                 ],
                 classTwo: [
-                    "Test 2 (The Sea of Monsters)",
+                    "Quiz 4 (The Titan’s Curse Chapters 1-8 and The Oracle of Delphi)",
                     "Book club discussion",
-                    "Greek myth 6: The Oracle of Delphi",
+                    "Greek myth 7: The Twelve Labours of Hercules",
                 ],
                 homeworkTwo: [
-                    "Read The Titan’s Curse Chapters 1-12",
-                    "Quiz next class",
-                    "Book/movie comparison report due next class",
+                    "Read The Titan’s Curse Chapters 9-20",
+                    "Test on The Titan’s Curse and The Twelve Labours of Hercules next class",
                 ],
                 attachmentsTwo: [
                     "",
@@ -119,25 +121,25 @@ export const courses = {
                     "Wed, July 27",
                 ],
                 class: [
-                    "Quiz 4 (The Titan’s Curse Chapters 1-12)",
+                    "Test 3: (The Titan’s Curse and The Twelve Labours of Hercules)",
                     "Book club discussion",
-                    "Greek myth 7: The Twelve Labours of Hercules",
+                    "Greek myth 8: Theseus and the Minotaur",
                 ],
                 homework: [
-                    "Read The Titan’s Curse Chapters 13-20",
-                    "Test on The Titan’s Curse next class",
+                    "Read The Battle of the Labyrinth Chapters 1-6",
+                    "Quiz on The Battle of the Labyrinth Chapters 1-6 and Theseus and the Minotaur next class",
                 ],
                 attachments: [
                     "",
                 ],
                 classTwo: [
-                    "Test 3 (The Titan’s Curse)",
+                    "Quiz 5 (The Battle of the Labyrinth Chapters 1-6 and Theseus and the Minotaur)",
                     "Book club discussion",
-                    "Greek myth 8: Theseus and the Minotaur",
+                    "Greek myth 9: Calypso The Sweet Nymph from The Odyssey",
                 ],
                 homeworkTwo: [
-                    "Read The Battle of the Labyrinth Chapters 1-8",
-                    "Quiz next class",
+                    "Read The Battle of the Labyrinth Chapters 7-14",
+                    "Quiz on The Battle of the Labyrinth Chapters 7-14 and Calypso The Sweet Nymph from The Odyssey next class",
                 ],
                 attachmentsTwo: [
                     "",
@@ -151,25 +153,25 @@ export const courses = {
                     "Wed, August 3",
                 ],
                 class: [
-                    "Quiz 5 (The Battle of the Labyrinth Chapters 1-8)",
+                    "Quiz 6 (The Battle of the Labyrinth Chapters 7-14 and Calypso The Sweet Nymph from The Odyssey)",
                     "Book club discussion",
-                    "Greek myth 9: Calypso The Sweet Nymph from The Odyssey",
+                    "Greek myth 10: The Trojan War",
                 ],
                 homework: [
-                    "Read The Battle of the Labyrinth Chapters 9-13",
-                    "Quiz next class",
+                    "Read The Battle of the Labyrinth Chapters 15-20",
+                    "Test on The Battle of the Labyrinth and The Trojan War next class",
                 ],
                 attachments: [
                     "",
                 ],
                 classTwo: [
-                    "Quiz 6 (The Battle of the Labyrinth Chapters 9-13)",
+                    "Test 4 (The Battle of the Labyrinth and The Trojan War)",
                     "Book club discussion",
-                    "Greek myth 10: The Trojan War",
+                    "Work time: group presentation",
                 ],
                 homeworkTwo: [
-                    "Read The Battle of the Labyrinth Chapters 14-20",
-                    "Test on The Battle of the Labyrinth next class",
+                    "Read The Last Olympian Chapters 1-9",
+                    "Quiz on The Last Olympian Chapters 1-9 next class",
                 ],
                 attachmentsTwo: [
                     "",
@@ -183,25 +185,25 @@ export const courses = {
                     "Wed, August 10",
                 ],
                 class: [
-                    "Test 4 (The Battle of the Labyrinth)",
+                    "Quiz 7 (The Last Olympian Chapters 1-7)",
                     "Book club discussion",
                     "Work time: group presentation",
                 ],
                 homework: [
-                    "Read The Last Olympian Chapters 1-7",
-                    "Quiz next class",
+                    "Read The Last Olympian Chapters 10-15",
+                    "Quiz on The Last Olympian Chapters 10-15 next class",
                 ],
                 attachments: [
                     ""
                 ],
                 classTwo: [
-                    "Quiz 7 (The Last Olympian Chapters 1-7)",
+                    "Quiz 8 (The Last Olympian Chapters 10-15)",
                     "Book club discussion",
                     "Work time: group presentation",
                 ],
                 homeworkTwo: [
-                    "Read The Last Olympian Chapters 8-16",
-                    "Quiz next class",
+                    "Read The Last Olympian Chapters 16-23",
+                    "Test on The Last Olympian next class",
                 ],
                 attachmentsTwo: [
                     "",
@@ -220,17 +222,15 @@ export const courses = {
                     "Work time: group presentation",
                 ],
                 homework: [
-                    "Read The Last Olympian Chapters 17-23",
-                    "Test on The Last Olympian next class",
-                    "Group presentations next class",
+                    "Test 5 (The Last Olympian)",
+                    "Finish preparing for group presentation",
                 ],
                 attachments: [
                     "",
                 ],
                 classTwo: [
-                    "Test 5 (The Last Olympian)",
-                    "Book club discussion",
-                    "Group presentation",
+                    "Group presentations",
+                    "Exploring mythology from other parts of the world",
                 ],
                 homeworkTwo: [
                     "",
@@ -328,19 +328,6 @@ export const courses = {
                 id: 5,
                 dates: "Jul 26 - Aug 1",
                 class: [
-                    "No class this week.",
-                ],
-                homework: [
-                    "See homework from Week 4.",
-                ],
-                attachments: [
-                    "",
-                ],
-            },
-            {
-                id: 6,
-                dates: "Aug 2 - Aug 8",
-                class: [
                     "Quiz 4 (The Fellowship of the Ring Book 2, The Two Towers Book 3 & Tattoos: Fad, Fashion or Folly?",
                     "Book club discussion",
                     "We Real Cool (textbook pg. 400)",
@@ -351,6 +338,19 @@ export const courses = {
                     "Textbook Questions on Wearing Hijab (pg. 418)",
                     "Read The Two Towers Book 4",
                     "Study for next week's quiz on The Lord of the Rings and textbook readings",
+                ],
+                attachments: [
+                    "",
+                ],
+            },
+            {
+                id: 6,
+                dates: "Aug 2 - Aug 8",
+                class: [
+                    "No class this week",
+                ],
+                homework: [
+                    "See homework from Week 5.",
                 ],
                 attachments: [
                     "",

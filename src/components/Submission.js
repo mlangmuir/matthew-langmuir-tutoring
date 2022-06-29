@@ -11,7 +11,7 @@ const Submission = () => {
         e.preventDefault();
 
         // params: ('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY')
-        emailjs.sendForm('gmail', 'template_wxm3g3r', form.current, 'wVbfUlRQ5_wlcZvJ0')
+        emailjs.sendForm('gmail', 'template_rqr0kw8', form.current, 'wVbfUlRQ5_wlcZvJ0')
             .then((result) => {
                 setSendSuccess(true);
             }, (error) => {
@@ -34,10 +34,10 @@ const Submission = () => {
                 </InputDiv>
                 <InputDiv>
                     <label>Submission Title: </label>
-                    <Input type="name" placeholder=" Submission Title" required />
+                    <Input type="name" placeholder=" Submission Title" name="subject" required />
                 </InputDiv>
                 <InputDiv>
-                    <input type="file" name="filename" />
+                    <input type="file" name="my_file" />
                 </InputDiv>
                 <InputDiv>
                     <Submit type="submit" />
