@@ -1,22 +1,37 @@
 import styled from 'styled-components';
+import { useState } from 'react';
+import e from 'cors';
 
 const Contact = () => {
+
+    const [name, setName] = useState("");
+    const [email, setEmail] = useState("");
+    const [comments, setComments] = useState("");
+
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        try {
+            setLoading(true);
+            const { data } = await 
+        }
+    }
+
     return (
         <Container>
-            <Form>
+            <Form onSubmit={handleSubmit}>
                 <Title>CONTACT ME</Title>
                 <Description>Got questions or comments? Drop me a line and I'll get back to you via email as soon as possible!</Description>
                 <InputDiv>
                     <label required>Name: </label>
-                    <Input type="name" placeholder=" Name" required />
+                    <Input onChange={(e) => setName(e.target.value)} type="name" placeholder=" Name" required />
                 </InputDiv>
                 <InputDiv>
                     <label>Email: </label>
-                    <Input type="email" placeholder=" Email" required />
+                    <Input onChange={(e) => setEmail(e.target.value)} type="email" placeholder=" Email" required />
                 </InputDiv>
                 <InputDiv>
                     <label>Comments:</label>
-                    <TextArea placeholder=" Enter your comments here!"></TextArea>
+                    <TextArea onChange={(e) => setComments(e.target.value)} placeholder=" Enter your comments here!"></TextArea>
                 </InputDiv>
                 <InputDiv>
                     <Submit type="submit" />
