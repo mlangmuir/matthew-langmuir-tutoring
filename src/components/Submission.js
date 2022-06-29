@@ -1,27 +1,38 @@
 import styled from 'styled-components';
-import { useRef, useState } from 'react';
-import emailjs from "emailjs-com";
+import { useState } from 'react';
 
 const Submission = () => {
-    const form = useRef();
-
     const [sendSuccess, setSendSuccess] = useState(false);
+    const [fileData, setFileData] = useState()
+
+    const handleFileChange = (e) => {
+        setFileData(e.target.files[0]);
+    }
 
     const handleSubmit = (e) => {
-        e.preventDefault();
+        e.preventDefault;
 
-        // params: ('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY')
-        emailjs.sendForm('gmail', 'template_rqr0kw8', form.current, 'wVbfUlRQ5_wlcZvJ0')
+        // Handle file data from state before sending
+        const data = new FormData();
+        data.append("assignment", fileData);
+
+        fetch("http://localhost:4000/single", {
+            method: "POST",
+            body: data,
+        })
             .then((result) => {
-                setSendSuccess(true);
-            }, (error) => {
-                alert("An error has occurred. Please try again!")
-            });
+                console.log(result)
+            })
+            .catch((error) => {
+                console.log(error)
+            })
+        setSendSuccess(true)
     }
 
     return (
         <Container>
-            <Form onSubmit={handleSubmit} ref={form}>
+            {sendSuccess && <Confirmation><p>Your assignment has been submitted. You will be receiving a confirmation email shortly!</p></Confirmation>}
+            <Form onSubmit={handleSubmit} style={{display: sendSuccess === true && "none"}}>
                 <Title>SUBMIT YOUR ASSIGNMENT</Title>
                 <Description>Please upload either a PDF, Word or Pages file.</Description>
                 <InputDiv>
@@ -37,7 +48,7 @@ const Submission = () => {
                     <Input type="name" placeholder=" Submission Title" name="subject" required />
                 </InputDiv>
                 <InputDiv>
-                    <input type="file" name="my_file" />
+                    <input onChange={handleFileChange} type="file" name="assignment" />
                 </InputDiv>
                 <InputDiv>
                     <Submit type="submit" />
@@ -54,6 +65,17 @@ const Container = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
+`;
+
+const Confirmation = styled.div`
+    z-index: 6;
+    height: 100vh;
+    width: 40%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    font-size: 32px;
+    color: white;
 `;
 
 const Form = styled.form`

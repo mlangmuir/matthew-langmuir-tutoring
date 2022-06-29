@@ -3,6 +3,7 @@ import Header from './Header';
 import Home from './Home';
 import About from './About';
 import { GlobalStyle } from "./globalStyles";
+import ScrollToTop from "./ScrollToTop";
 import CourseDetails from "./CourseDetails";
 import CourseMaterial from "./CourseMaterial";
 import WeekDetails from "./WeekDetails";
@@ -14,6 +15,7 @@ function App() {
         <Router>
             <GlobalStyle />
             <Header />
+            <ScrollToTop />
             <Switch>
                 <Route exact path="/">
                     <Home />
