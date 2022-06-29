@@ -1,18 +1,19 @@
 import styled from 'styled-components';
 import { useState } from 'react';
-import e from 'cors';
 
 const Contact = () => {
 
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
     const [comments, setComments] = useState("");
+    const [loading, setLoading] = useState(false);
 
     const handleSubmit = (e) => {
         e.preventDefault();
         try {
             setLoading(true);
-            const { data } = await 
+        } catch(err) {
+            
         }
     }
 
