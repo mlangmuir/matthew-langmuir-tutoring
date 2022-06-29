@@ -1,15 +1,36 @@
 import styled from 'styled-components';
+import { useRef, useState } from 'react';
+import emailjs from "emailjs-com";
 
 const Submission = () => {
+    const form = useRef();
+
+    const [sendSuccess, setSendSuccess] = useState(false);
+
+    const handleSubmit = (e) => {
+        e.preventDefault();
+
+        // params: ('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY')
+        emailjs.sendForm('gmail', 'template_wxm3g3r', form.current, 'wVbfUlRQ5_wlcZvJ0')
+            .then((result) => {
+                setSendSuccess(true);
+            }, (error) => {
+                alert("An error has occurred. Please try again!")
+            });
+    }
 
     return (
         <Container>
-            <Form>
+            <Form onSubmit={handleSubmit} ref={form}>
                 <Title>SUBMIT YOUR ASSIGNMENT</Title>
                 <Description>Please upload either a PDF, Word or Pages file.</Description>
                 <InputDiv>
                     <label required>Name: </label>
-                    <Input type="name" placeholder=" Name" required />
+                    <Input type="name" placeholder=" Name" name="name" required />
+                </InputDiv>
+                <InputDiv>
+                    <label>Email: </label>
+                    <Input type="email" placeholder=" Email" name="email" required />
                 </InputDiv>
                 <InputDiv>
                     <label>Submission Title: </label>
@@ -37,8 +58,8 @@ const Container = styled.div`
 
 const Form = styled.form`
     z-index: 3;
-    margin-top: 150px;
-    padding: 25px 25px;
+    margin-top: 100px;
+    padding: 75px 25px;
     max-width: 620px;
     font-size: 18px;
     color: white;

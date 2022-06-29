@@ -67,8 +67,8 @@ const Confirmation = styled.div`
 
 const Form = styled.form`
     z-index: 3;
-    margin-top: 150px;
-    padding: 25px 25px;
+    margin-top: 100px;
+    padding: 75px 25px;
     max-width: 620px;
     font-size: 18px;
     color: white;
