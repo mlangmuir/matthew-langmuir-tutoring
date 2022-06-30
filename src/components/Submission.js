@@ -32,7 +32,7 @@ const Submission = () => {
         const data = new FormData();
         data.append("assignment", fileData);
 
-        fetch("http://localhost:4000/single", {
+        fetch("./single", {
             method: "POST",
             body: data
         })
