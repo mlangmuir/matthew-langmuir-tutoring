@@ -10,4 +10,4 @@ cd `server` and then `nodemon`
 
 ## Deployment
 
-Autodeploy via DigitalOcean. Hosted at <a href="tutoring.matthewlangmuir.com">tutoring.matthewlangmuir.com</a>
+Autodeploy via DigitalOcean. Hosted at <a href="tutoring.matthewlangmuir.com">https://tutoring.matthewlangmuir.com</a>
