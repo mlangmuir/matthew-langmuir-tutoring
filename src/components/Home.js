@@ -31,6 +31,10 @@ const TextDiv = styled.div`
     @media (max-width: 855px) {
         align-items: center;
     }
+
+    @media (max-height: 425px) {
+        justify-content: flex-end;
+    }
 `;
 
 const Background = styled.img`

@@ -64,6 +64,14 @@ const Confirmation = styled.div`
     align-items: center;
     font-size: 32px;
     color: white;
+
+    @media (max-width: 855px) {
+        width: 80%
+    }
+
+    @media (max-height: 425px) {
+        align-items: flex-end;
+    }
 `;
 
 const Form = styled.form`
