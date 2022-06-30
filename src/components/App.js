@@ -9,6 +9,7 @@ import CourseMaterial from "./CourseMaterial";
 import WeekDetails from "./WeekDetails";
 import Submission from "./Submission";
 import Contact from "./Contact";
+import RouteNotFound from "./RouteNotFound";
 
 function App() {
     return (
@@ -37,6 +38,9 @@ function App() {
                 </Route>
                 <Route exact path="/course-material/:courseId/:weekId">
                     <WeekDetails />
+                </Route>
+                <Route path="*">
+                    <RouteNotFound />
                 </Route>
             </Switch>
         </Router>
