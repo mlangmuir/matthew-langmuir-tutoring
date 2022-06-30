@@ -13,14 +13,14 @@ const fileStorageEngine = multer.diskStorage({
         cb(null, './assignments')
     },
     filename: (req, file, cb) => {
-        console.log(req.file)
+        // console.log(req.file)
         cb(null, moment().format("llll") + " - " + file.originalname)
     }});
 
 const upload = multer({ storage: fileStorageEngine });
 
 app.post('/single', upload.single("assignment"), (req, res) => {
-    console.log(req.file);
+    console.log('file: ', req.file);
     res.send("File upload successful.")
 })
 

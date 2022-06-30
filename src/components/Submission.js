@@ -20,7 +20,7 @@ const Submission = () => {
 
         fetch("http://localhost:4000/single", {
             method: "POST",
-            body: data,
+            body: data
         })
             .then((result) => {
                 setSendSuccess(true)
