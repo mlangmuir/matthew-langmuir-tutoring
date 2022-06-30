@@ -69,7 +69,7 @@ const Submission = () => {
                 </InputDiv>
             </Form>
             {/* EmailJS API only allows messages up to 50kb. This is an invisible form that includes just the name, email and title allowing the site owner to be notified by email when a file is uploaded. */}
-            <form ref={form} style={{display: 'none'}}>
+            <form method="POST" action="/single" enctype="multipart/form-data" ref={form} style={{display: 'none'}}>
                 {console.log(fileData.name)}
                 <input name="name" type="name" value={name} />
                 <input name="email" type="email" value={email} />
