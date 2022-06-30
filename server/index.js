@@ -1,8 +1,8 @@
 const path = require("path");
-
 const express = require("express");
 const multer = require("multer");
 const cors = require("cors");
+const moment = require('moment');
 
 const app = express();
 
@@ -13,7 +13,8 @@ const fileStorageEngine = multer.diskStorage({
         cb(null, './assignments')
     },
     filename: (req, file, cb) => {
-        cb(null, Date.now() + " - " + file.originalname)
+        console.log(req.file)
+        cb(null, moment().format("llll") + " - " + file.originalname)
     }});
 
 const upload = multer({ storage: fileStorageEngine });

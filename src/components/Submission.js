@@ -1,16 +1,18 @@
 import styled from 'styled-components';
-import { useState } from 'react';
+import { useState, useRef } from 'react';
 
 const Submission = () => {
     const [sendSuccess, setSendSuccess] = useState(false);
-    const [fileData, setFileData] = useState()
+    const [fileData, setFileData] = useState();
+    const [nameData, setNameData] = useState();
 
     const handleFileChange = (e) => {
         setFileData(e.target.files[0]);
     }
+    const form = useRef();
 
     const handleSubmit = (e) => {
-        e.preventDefault;
+        e.preventDefault();
 
         // Handle file data from state before sending
         const data = new FormData();
@@ -21,23 +23,21 @@ const Submission = () => {
             body: data,
         })
             .then((result) => {
-                console.log(result)
+                setSendSuccess(true)
+            }, (error) => {
+                alert("An error has occurred. Please try again!")
             })
-            .catch((error) => {
-                console.log(error)
-            })
-        setSendSuccess(true)
     }
 
     return (
         <Container>
-            {sendSuccess && <Confirmation><p>Your assignment has been submitted. You will be receiving a confirmation email shortly!</p></Confirmation>}
-            <Form onSubmit={handleSubmit} style={{display: sendSuccess === true && "none"}}>
+            {sendSuccess && <Confirmation><p>Your assignment has been submitted. Thank you!</p></Confirmation>}
+            <Form onSubmit={handleSubmit} ref={form} style={{display: sendSuccess === true && "none"}}>
                 <Title>SUBMIT YOUR ASSIGNMENT</Title>
                 <Description>Please upload either a PDF, Word or Pages file.</Description>
                 <InputDiv>
                     <label required>Name: </label>
-                    <Input type="name" placeholder=" Name" name="name" required />
+                    <Input onChange={(e) => setNameData(e.target.value)} type="name" placeholder=" Name" name="name" required />
                 </InputDiv>
                 <InputDiv>
                     <label>Email: </label>
@@ -48,10 +48,10 @@ const Submission = () => {
                     <Input type="name" placeholder=" Submission Title" name="subject" required />
                 </InputDiv>
                 <InputDiv>
-                    <input onChange={handleFileChange} type="file" name="assignment" />
+                    <input onChange={handleFileChange} type="file" name="assignment" required />
                 </InputDiv>
                 <InputDiv>
-                    <Submit type="submit" />
+                    <Submit onSubmit={() => { return false }} type="submit" />
                 </InputDiv>
             </Form>
             <CoverShade />
@@ -86,6 +86,7 @@ const Form = styled.form`
     font-size: 18px;
     color: white;
     text-shadow: 1px 1px black;
+
     @media (max-width: 500px) {
         width: 90%;
     }
