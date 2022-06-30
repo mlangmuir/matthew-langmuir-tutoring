@@ -1,18 +1,32 @@
 import styled from 'styled-components';
 import { useState, useRef } from 'react';
+import emailjs from "emailjs-com";
 
 const Submission = () => {
     const [sendSuccess, setSendSuccess] = useState(false);
-    const [fileData, setFileData] = useState();
-    const [nameData, setNameData] = useState();
+    const [fileData, setFileData] = useState({name: "default"});
+    const [name, setName] = useState("default");
+    const [email, setEmail] = useState("default");
+    const [title, setTitle] = useState("default");
+
+    const form = useRef();
 
     const handleFileChange = (e) => {
         setFileData(e.target.files[0]);
     }
-    const form = useRef();
 
     const handleSubmit = (e) => {
         e.preventDefault();
+
+        // params: ('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY')
+        emailjs.sendForm('gmail', 'template_astj5yn', form.current, 'wVbfUlRQ5_wlcZvJ0')
+            .then((result) => {
+                console.log(result)
+                setSendSuccess(true);
+            }, (error) => {
+                console.log(error)
+                alert("An error has occurred. Please try again!");
+            });
 
         // Handle file data from state before sending
         const data = new FormData();
@@ -25,27 +39,27 @@ const Submission = () => {
             .then((result) => {
                 setSendSuccess(true)
             }, (error) => {
-                alert("An error has occurred. Please try again!")
+                alert("An error has occurred. If you are on a phone or tablet, please upload your assignment from a computer.")
             })
     }
 
     return (
         <Container>
             {sendSuccess && <Confirmation><p>Your assignment has been submitted. Thank you!</p></Confirmation>}
-            <Form onSubmit={handleSubmit} ref={form} style={{display: sendSuccess === true && "none"}}>
+            <Form onSubmit={handleSubmit} style={{display: sendSuccess === true && "none"}}>
                 <Title>SUBMIT YOUR ASSIGNMENT</Title>
                 <Description>Please upload either a PDF, Word or Pages file.</Description>
                 <InputDiv>
                     <label required>Name: </label>
-                    <Input onChange={(e) => setNameData(e.target.value)} type="name" placeholder=" Name" name="name" required />
+                    <Input onChange={(e) => setName(e.target.value)} type="name" placeholder=" Name" required />
                 </InputDiv>
                 <InputDiv>
                     <label>Email: </label>
-                    <Input type="email" placeholder=" Email" name="email" required />
+                    <Input onChange={(e) => setEmail(e.target.value)} type="email" placeholder=" Email" required />
                 </InputDiv>
                 <InputDiv>
                     <label>Submission Title: </label>
-                    <Input type="name" placeholder=" Submission Title" name="subject" required />
+                    <Input onChange={(e) => setTitle(e.target.value)} type="name" placeholder=" Submission Title" required />
                 </InputDiv>
                 <InputDiv>
                     <input onChange={handleFileChange} type="file" name="assignment" required />
@@ -54,6 +68,14 @@ const Submission = () => {
                     <Submit onSubmit={() => { return false }} type="submit" />
                 </InputDiv>
             </Form>
+            {/* EmailJS API only allows messages up to 50kb. This is an invisible form that includes just the name, email and title allowing the site owner to be notified by email when a file is uploaded. */}
+            <form ref={form} style={{display: 'none'}}>
+                {console.log(fileData.name)}
+                <input name="name" type="name" value={name} />
+                <input name="email" type="email" value={email} />
+                <input name="title" type="name" value={title} />
+                <input name="filename" type="name" value={fileData.name} />
+            </form>
             <CoverShade />
             <Background src="/assets/homework-bg.jpeg" alt="homework-page-background"/>
         </Container>
