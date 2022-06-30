@@ -45,7 +45,7 @@ const Submission = () => {
 
     return (
         <Container>
-            {sendSuccess && <Confirmation><p>Your assignment has been submitted. Thank you!</p></Confirmation>}
+            {sendSuccess && <Confirmation><p>Your assignment has been submitted. You will be receiving an email shortly confirming that your work has been received!</p></Confirmation>}
             <Form onSubmit={handleSubmit} style={{display: sendSuccess === true && "none"}}>
                 <Title>SUBMIT YOUR ASSIGNMENT</Title>
                 <Description>Please upload either a PDF, Word or Pages file.</Description>
