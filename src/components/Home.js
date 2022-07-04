@@ -10,7 +10,7 @@ const Home = () => {
                 <Title>Welcome to our classroom!</Title>
                 <ButtonDiv>
                     <StyledLink to="/course-material">Access Course Material</StyledLink>
-                    <StyledLink to="/submission">Submit An Assignment</StyledLink>
+                    <StyledLink to="/contact">Contact The Instructor</StyledLink>
                 </ButtonDiv>
             </TextDiv>
         </>
