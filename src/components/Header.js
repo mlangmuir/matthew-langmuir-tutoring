@@ -33,14 +33,14 @@ const Header = () => {
                 >
                     Course Material
                 </StyledNavLink>
-                <StyledNavLink exact to='/submission'
+                {/* <StyledNavLink exact to='/submission'
                     activeStyle={{
                         borderBottom: "1.5px solid #2E67F8",
                         color: "#2E67F8"
                     }}
-                >
-                    Submission
-                </StyledNavLink>
+                > */}
+                    {/* Submission
+                </StyledNavLink> */}
                 <StyledNavLink exact to='/contact'
                     activeStyle={{
                         borderBottom: "1.5px solid #2E67F8",
