@@ -10,4 +10,4 @@ Run `yarn` and then `yarn start` to start development.
 
 Autodeploy via Netlify. Hosted at https://tutoring.matthewlangmuir.com
 
-![Screen Shot 2022-07-16 at 10 21 04 AM](https://user-images.githubusercontent.com/96800876/179365441-b97148c4-3dd4-493e-a4eb-33b17df5e6d1.png)
+![Screen Shot 2022-07-16 at 10 26 18 AM](https://user-images.githubusercontent.com/96800876/179365639-cf1f4e98-2e59-4955-90b8-3e0e59fc11d6.png)
