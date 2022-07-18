@@ -95,7 +95,7 @@ export const courses = {
                 ],
                 homework: [
                     "Read The Titan’s Curse Chapters 1-8",
-                    "Quiz on The Titan’s Curse Chapters 1-8 and The Oracle of Delphi next class",
+                    "Quiz on The Titan’s Curse Chapters 1-8 next class",
                 ],
                 attachments: [
                     "",
