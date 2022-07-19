@@ -317,7 +317,6 @@ export const courses = {
                 homework: [
                     "Textbook: Questions 1-6 (pg. 396)",
                     "Read The Fellowship of the Ring Book 2",
-                    "Read The Two Towers Book 3",
                     "Study for quiz on this week's readings",
                 ],
                 attachments: [
@@ -335,9 +334,7 @@ export const courses = {
                     "Wearing Hijab: Veil of Valor (pg. 407)",
                 ],
                 homework: [
-                    "Textbook Questions on Wearing Hijab (pg. 418)",
-                    "Read The Two Towers Book 4",
-                    "Study for next week's quiz on The Lord of the Rings and textbook readings",
+                    "No homework!",
                 ],
                 attachments: [
                     "",
@@ -350,7 +347,7 @@ export const courses = {
                     "No class this week",
                 ],
                 homework: [
-                    "See homework from Week 5.",
+                    "No homework!",
                 ],
                 attachments: [
                     "",
@@ -360,13 +357,13 @@ export const courses = {
                 id: 7,
                 dates: "Aug 9 - Aug 15",
                 class: [
-                    "Quiz 5 (The Two Towers Book 4, We Real Cool, The Market Economy and Wearing Hijab: Veil of Valor)",
                     "Book club discussion",
                     "Zoya’s Story (textbook pg. 414)",
                 ],
                 homework: [
+                    "Textbook Questions on Wearing Hijab (pg. 418)",
                     "Textbook Questions on Zoya’s Story (pg. 418)",
-                    "Read The Return of the King Book 5",
+                    "Read The Two Towers Book 3",
                     "Study for next week's quiz on The Lord of the Rings and textbook readings",
                 ],
                 attachments: [
@@ -377,14 +374,14 @@ export const courses = {
                 id: 8,
                 dates: "Aug 16 - Aug 22",
                 class: [
-                    "Quiz 6 (The Return of the King Book 5 and Zoya’s Story",
+                    "Quiz 5 (The Two Towers Book 3 and Zoya’s Story)",
                     "Book club discussion",
                     "Writing academic papers",
                     "Chicago citations",                
                 ],
                 homework: [
                     "Final book report due in 2 weeks",
-                    "Read The Return of the King Book 6",
+                    "Read The Two Towers Book 4",
                     "Study for next week's quiz on The Lord of the Rings",
                 ],
                 attachments: [
@@ -395,12 +392,13 @@ export const courses = {
                 id: 9,
                 dates: "Aug 23 - Aug 29",
                 class: [
-                    "Quiz 7 (The Return of the King Book 6)",
-                    "Final book club discussion",
+                    "Quiz 6 (The Two Towers Book 4)",
+                    "Book club discussion",
                     "Movie-book comparison",
                 ],
                 homework: [
-                    "Final book report",
+                    "Final book report due next week",
+                    "Read The Return of the King Book 5",
                 ],
                 attachments: [
                     "",
@@ -410,12 +408,13 @@ export const courses = {
                 id: 10,
                 dates: "Aug 30 - Sept 5",
                 class: [
+                    "Quiz 7 (The Return of the King Book 5)",
                     "Final book club discussion",
                     "Movie-book comparison",
                     "Unit 3 Assessment",
                 ],
                 homework: [
-                    "",
+                    "Read The Return of the King Book 6",
                 ],
                 attachments: [
                     "",
