@@ -7,10 +7,10 @@ export const courses = {
             "In this online summer course, we will be reading the fantasy adventure book series Percy Jackson and the Olympians, which focuses on modern-day Greek mythology. We will also be learning about the Greek myths that the novel alludes to. In addition to improving their reading skills, you will also be able to bolster their writing and public speaking skills through writing assignments and presentations.",
         evaluation: [
             "Class participation - 10%",
-            "8 quizzes - 2.5% each: 20%",
+            "8 quizzes - 3% each: 21%",
             "5 tests - 9% each: 45%",
             "Book/movie comparison report 10%",
-            "Final group project - 15%"
+            "Final group project - 14%"
         ],
         imageSrc: '/assets/percy-jackson-bg.jpg',
         week: [
@@ -68,7 +68,7 @@ export const courses = {
                     "",
                 ],
                 classTwo: [
-                    "Test 1 (The Sea of Monsters and The Cyclops from The Odyssey)",
+                    "Test 2 (The Sea of Monsters and The Cyclops from The Odyssey)",
                     "Book club discussion",
                     "Greek myth 5: Jason and the Golden Fleece",
                 ],
@@ -88,7 +88,7 @@ export const courses = {
                     "Wed, July 20",
                 ],
                 class: [
-                    "Quiz 3 (Jason and the Golden Fleece)",
+                    "Quiz 2 (Jason and the Golden Fleece)",
                     "Book-movie comparison presentation",
                     "Book club discussion",
                     "Greek myth 6: The Oracle of Delphi",
@@ -101,7 +101,7 @@ export const courses = {
                     "",
                 ],
                 classTwo: [
-                    "Quiz 4 (The Titan’s Curse Chapters 1-8 and The Oracle of Delphi)",
+                    "Quiz 3 (The Titan’s Curse Chapters 1-8 and The Oracle of Delphi)",
                     "Book club discussion",
                     "Greek myth 7: The Twelve Labours of Hercules",
                 ],
@@ -133,7 +133,7 @@ export const courses = {
                     "",
                 ],
                 classTwo: [
-                    "Quiz 5 (The Battle of the Labyrinth Chapters 1-6 and Theseus and the Minotaur)",
+                    "Quiz 4 (The Battle of the Labyrinth Chapters 1-6 and Theseus and the Minotaur)",
                     "Book club discussion",
                     "Greek myth 9: Calypso The Sweet Nymph from The Odyssey",
                 ],
@@ -153,7 +153,7 @@ export const courses = {
                     "Wed, August 3",
                 ],
                 class: [
-                    "Quiz 6 (The Battle of the Labyrinth Chapters 7-14 and Calypso The Sweet Nymph from The Odyssey)",
+                    "Quiz 5 (The Battle of the Labyrinth Chapters 7-14 and Calypso The Sweet Nymph from The Odyssey)",
                     "Book club discussion",
                     "Greek myth 10: The Trojan War",
                 ],
@@ -185,7 +185,7 @@ export const courses = {
                     "Wed, August 10",
                 ],
                 class: [
-                    "Quiz 7 (The Last Olympian Chapters 1-7)",
+                    "Quiz 6 (The Last Olympian Chapters 1-7)",
                     "Book club discussion",
                     "Work time: group presentation",
                 ],
@@ -197,7 +197,7 @@ export const courses = {
                     ""
                 ],
                 classTwo: [
-                    "Quiz 8 (The Last Olympian Chapters 10-15)",
+                    "Quiz 7 (The Last Olympian Chapters 10-15)",
                     "Book club discussion",
                     "Work time: group presentation",
                 ],
@@ -217,12 +217,11 @@ export const courses = {
                     "Wed, August 17",
                 ],
                 class: [
-                    "The Last Olympian Chapters 8-16",
+                    "Test 5 (The Last Olympian Chapters 8-16",
                     "Book club discussion",
                     "Work time: group presentation",
                 ],
                 homework: [
-                    "Test 5 (The Last Olympian)",
                     "Finish preparing for group presentation",
                 ],
                 attachments: [
