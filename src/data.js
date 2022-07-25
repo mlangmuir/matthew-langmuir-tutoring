@@ -326,7 +326,7 @@ export const courses = {
                 id: 5,
                 dates: "Jul 26 - Aug 1",
                 class: [
-                    "Quiz 4 (The Fellowship of the Ring Book 2, The Two Towers Book 3 & Tattoos: Fad, Fashion or Folly?",
+                    "Quiz 4 (The Fellowship of the Ring Book 2, The Two Towers Book 3 & Tattoos: Fad, Fashion or Folly?)",
                     "Book club discussion",
                     "We Real Cool (textbook pg. 400)",
                     "The Market Economy (textbook pg. 401)",
