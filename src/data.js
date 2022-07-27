@@ -135,11 +135,11 @@ export const courses = {
                 classTwo: [
                     "Quiz 4 (The Battle of the Labyrinth Chapters 1-6 and Theseus and the Minotaur)",
                     "Book club discussion",
-                    "Greek myth 9: Calypso The Sweet Nymph from The Odyssey",
+                    "Greek myth 9: Icarus and Daedalus",
                 ],
                 homeworkTwo: [
                     "Read The Battle of the Labyrinth Chapters 7-14",
-                    "Quiz on The Battle of the Labyrinth Chapters 7-14 and Calypso The Sweet Nymph from The Odyssey next class",
+                    "Quiz on The Battle of the Labyrinth Chapters 7-14 and Icarus and Daedalus next class",
                 ],
                 attachmentsTwo: [
                     "",
@@ -153,7 +153,7 @@ export const courses = {
                     "Wed, August 3",
                 ],
                 class: [
-                    "Quiz 5 (The Battle of the Labyrinth Chapters 7-14 and Calypso The Sweet Nymph from The Odyssey)",
+                    "Quiz 5 (The Battle of the Labyrinth Chapters 7-14 and Icarus and Daedalus)",
                     "Book club discussion",
                     "Greek myth 10: The Trojan War",
                 ],
