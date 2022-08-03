@@ -7,7 +7,7 @@ export const courses = {
             "In this online summer course, we will be reading the fantasy adventure book series Percy Jackson and the Olympians, which focuses on modern-day Greek mythology. We will also be learning about the Greek myths that the novel alludes to. In addition to improving their reading skills, you will also be able to bolster their writing and public speaking skills through writing assignments and presentations.",
         evaluation: [
             "Class participation - 10%",
-            "8 quizzes - 3% each: 21%",
+            "7 quizzes - 3% each: 21%",
             "5 tests - 9% each: 45%",
             "Book/movie comparison report 10%",
             "Final group project - 14%"
