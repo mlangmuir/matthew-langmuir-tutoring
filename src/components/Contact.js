@@ -43,7 +43,7 @@ const Contact = () => {
                 </InputDiv>
             </Form>
             <CoverShade />
-            <Background src="/assets/vancouver-bg.jpeg" alt="vancouver-background"/>
+            <Background src="./assets/vancouver-bg.jpeg" alt="Vancouver background image"/>
         </Container>
     )
 }

@@ -57,7 +57,8 @@ const Wrapper = styled.div`
 
 const CourseDiv = styled.div`
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 
     @media (max-width: 1275px) {
         flex-direction: column;
@@ -68,6 +69,7 @@ const StyledLink = styled(Link)`
     text-align: center;
     text-decoration: none;
     padding: 0 20px;
+    margin-bottom: 50px;
 
     :hover {
         transform: scale(1.05);

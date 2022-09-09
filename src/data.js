@@ -1,6 +1,80 @@
 export const courses = {
-    a: {
-        id: 'a',
+
+
+    d: {
+        id: 'd',
+        name: 'The Little Prince and California Wonders',
+        dates: 'September 16, 2022 - December, 2022',
+        description: 'In this online fall course, we will be reading the English translation of the French classic "The Little Prince". We will also be using the Grade 4 California Wonders textbook to develop some practical reading and writing skills.',
+        evaluation: [
+            "Class participation: 15%",
+            "Weekly homework assignments: 35%",
+            "3 tests - 10% each: 30%",
+            "Final project: 20%"
+        ],
+        attachments: [
+            {title: "The Little Prince", link: "https://drive.google.com/file/d/1mpQNIobdXJyvR3ohtwgkrHhmzzarkruK/view?usp=sharing"},
+            {title: "California Wonders Practice Book", link: "https://drive.google.com/file/d/1PI2S5cXkbdYAtJPBggBPw3yhQdsYKUyJ/view?usp=sharing"}
+        ],
+        imageSrc: '/assets/little-prince-bg.jpeg',
+        week: [
+            {
+                id: 1,
+                dates: "Sep 16 - Sep 22",
+                class: [
+                    "Icebreaker games",
+                    "The Little Prince characters activity",
+                    "The Little Prince Chapters 1-2",
+                    "California Wonders Practice Book pages 1-2",
+                ],
+                homework: [
+                    "Questions on The Little Prince Chapters 1-2",
+                    "California Wonders Practice Book pages 3-4",
+                ],
+                attachments: [
+                    "",
+                ],
+            }
+        ]
+    },
+
+    c: {
+        id: 'c',
+        name: "Othello and The Reader's Choice",
+        dates: 'September 10, 2022 - December, 2022',
+        description: "In this online fall course, we will be reading 'Othello' by William Shakespeare, arguably the most influential writer in English literature. We will also using 'The Reader's Choice' textbook to bolster to students' reading and writing skills. At the end of the course, a final essay will assigned to assess their writing skills.",
+        evaluation: [
+            "Class participation: 10%",
+            "Weekly homework assignments: 30%",
+            "5 quizzes - 6% each: 30%",
+            "Final essay: 30%"
+        ],
+        attachments: [
+            {title: "Othello", link: "https://drive.google.com/file/d/1suUpb0j52xVXnz9eFzvP1OZC8N2PZtKr/view?usp=sharing"},
+            {title: "The Reader's Choice", link: "https://drive.google.com/file/d/1vBR6lzKSTGhZ8k4J2bheBsr6AjWBNURX/view?usp=sharing"}
+        ],
+        imageSrc: '/assets/othello-bg.jpeg',
+        week: [
+            {
+                id: 1,
+                dates: "Sep 10 - Sep 16",
+                class: [
+                    "Icebreaker games",
+                    "The Lady and the Tiger (textbook pg. 10 - 19)",
+                    "Intro to Shakespeare and Othello",
+                ],
+                homework: [
+                    "Read Othello Act I Scenes 1-2",
+                    "Homework questions on The Lady and the Tiger and Othello Act I Scene I",
+                ],
+                attachments: [
+                ],
+            }
+        ]
+    },
+
+    b: {
+        id: 'b',
         name: 'Percy Jackson and Greek Mythology',
         dates: 'July 4, 2022 - August 17, 2022',
         description:
@@ -240,8 +314,9 @@ export const courses = {
             }
         ]
     },
-    b: {
-        id: 'b',
+
+    a: {
+        id: 'a',
         name: 'The Lord of the Rings and Reading with Purpose Unit 3',
         dates: 'June 28, 2022 - Aug 30, 2022',
         description: 'In this online summer course, we will be reading the beloved fantasy adventure book series "The Lord of the Rings". We will also be enlightening ourselves with some practical reading and writing skills with the textbook "Reading with a Purpose". At the end of the course, an assessment will be given to assess reading, while the final book report will assess writing.',
@@ -420,5 +495,6 @@ export const courses = {
                 ],
             }
         ]
-    },
+    }
+
 };

@@ -1,10 +1,12 @@
 import styled from 'styled-components';
-import { useParams, Link } from "react-router-dom";
+import { useParams, Link, useHistory } from "react-router-dom";
 import { courses } from '../data';
 
 const CourseDetails = () => {
 
     const { courseId } = useParams();
+
+    const history = useHistory();
 
     return (
         <Container>
@@ -16,9 +18,21 @@ const CourseDetails = () => {
                 <SectionTitle>Evaluation:</SectionTitle>
                 {courses[courseId]?.evaluation.map((item, index) => {
                     return (
-                        <Evaluation key={index}>{ item }</Evaluation>
+                        <BulletPoints key={index}>{ item }</BulletPoints>
                     )
                 })}
+                {courses[courseId]?.attachments &&
+                <>
+                    <SectionTitle>Books:</SectionTitle>
+                    {courses[courseId]?.attachments.map((item, index) => {
+                        return (
+                            <BulletPoints key={index}>
+                                <A href={item.link} target="_blank">{item.title}</A>
+                            </BulletPoints>
+                        )
+                    })}
+                </>
+                }
             </TextDiv>
             <WeekDiv>
             {courses[courseId].week?.map((item, index) => {
@@ -99,9 +113,24 @@ const Description = styled.p`
     }
 `;
 
-const Evaluation = styled.li`
+const BulletPoints = styled.li`
     line-height: 35px;
     font-size: 24px;
+
+    @media (max-width: 500px) {
+        font-size: 20px;
+    }
+`;
+
+const A = styled.a`
+    line-height: 35px;
+    font-size: 24px;
+    margin-left: 15px;
+    color: lightblue;
+
+    :hover {
+        cursor: pointer;
+    }
 
     @media (max-width: 500px) {
         font-size: 20px;
