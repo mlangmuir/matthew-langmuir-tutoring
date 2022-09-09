@@ -65,9 +65,10 @@ export const courses = {
                 ],
                 homework: [
                     "Read Othello Act I Scenes 1-2",
-                    "Homework questions on The Lady and the Tiger and Othello Act I Scene I",
+                    "Homework questions on The Lady and the Tiger and Othello Act I Scene 1-2",
                 ],
                 attachments: [
+                    "https://docs.google.com/forms/d/e/1FAIpQLScboVf3S13Mozwwjd7PwUOv1ksizrKJLV8Rk0o-in8UZLX4rw/viewform?usp=sf_link"
                 ],
             }
         ]

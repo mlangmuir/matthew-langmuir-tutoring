@@ -10,19 +10,6 @@ const WeekDetails = () => {
 
     const weekData = courses[courseId.courseId].week[courseId.weekId - 1];
 
-    console.log(weekData)
-
-    const download = (e) => {
-        e.preventDefault();
-        Axios({
-            url:"http://localhost:3000",
-            method: "GET",
-            responseType: "blob",
-        }).then((res) => {
-            FileDownload(res.data,`${weekData.attachments[0]}`)
-        })
-    }
-
     return (
         <Container>
             <TextDiv>
@@ -55,13 +42,14 @@ const WeekDetails = () => {
                 })}
                 {weekData.attachments.map((item, index) => {
                     return (
-                        <div key={index}>
+                        <ul key={index}>
                             {item !== "" &&
-                                <Button onClick={(e)=> download(e)}>Download Homework</Button>
+                                <Description><A href={item}>Click here to access homework questions</A></Description>
                             }
-                        </div>
+                        </ul>
                     )
                 })}
+
                 {weekData.classTwo &&
                     <ClassTwoDiv>
                         <ClassDate>{weekData.classDates[1]}</ClassDate>
@@ -174,6 +162,19 @@ const SectionTitle = styled.h3`
 
 const Description = styled.li`
     font-size: 24px;
+
+    @media (max-width: 600px) {
+        font-size: 20px;
+    }
+`;
+
+const A = styled.a`
+    font-size: 24px;
+    color: lightblue;
+
+    :hover {
+        color: lightblue;
+    }
 
     @media (max-width: 600px) {
         font-size: 20px;
