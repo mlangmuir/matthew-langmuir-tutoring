@@ -44,7 +44,7 @@ const WeekDetails = () => {
                     return (
                         <ul key={index}>
                             {item !== "" &&
-                                <Description><A href={item}>Click here to access homework questions</A></Description>
+                                <Description><A href={item} target="_blank">Click here to access homework questions</A></Description>
                             }
                         </ul>
                     )
@@ -75,14 +75,14 @@ const WeekDetails = () => {
                                 </div>
                             )
                         })}
-                        {weekData?.attachmentsTwo.map((item, index) => {
-                            return (
-                                <div key={index}>
-                                    {item !== "" &&
-                                        <Button onClick={(e)=> download(e)}>Download Homework</Button>
-                                    }
-                                </div>
-                            )
+                        {weekData.attachmentsTwo.map((item, index) => {
+                        return (
+                            <ul key={index}>
+                                {item !== "" &&
+                                    <Description><A href={item} target="_blank">Click here to access homework questions</A></Description>
+                                }
+                            </ul>
+                        )
                         })}
                     </ClassTwoDiv>
                 }
