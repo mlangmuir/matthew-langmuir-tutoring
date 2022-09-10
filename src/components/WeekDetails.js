@@ -170,10 +170,10 @@ const Description = styled.li`
 
 const A = styled.a`
     font-size: 24px;
-    color: lightblue;
+    color: #0096FF;
 
     :hover {
-        color: lightblue;
+        color: #0096FF;
     }
 
     @media (max-width: 600px) {

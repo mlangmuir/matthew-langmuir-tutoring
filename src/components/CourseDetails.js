@@ -27,7 +27,10 @@ const CourseDetails = () => {
                     {courses[courseId]?.attachments.map((item, index) => {
                         return (
                             <BulletPoints key={index}>
-                                <A href={item.link} target="_blank">{item.title}</A>
+                                {item.link
+                                    ? <A href={item.link} target="_blank">{item.title}</A>
+                                    : <Book>{item.title}</Book>
+                                }
                             </BulletPoints>
                         )
                     })}
@@ -38,8 +41,8 @@ const CourseDetails = () => {
             {courses[courseId].week?.map((item, index) => {
                 return (
                     <StyledLink to={`${courseId}/${item.id}`} key={index}>
-                        <WeekNumber>Week { item.id }</WeekNumber>
-                        <WeekDates>{ item.dates }</WeekDates>
+                        <WeekNumber>Week {item.id}</WeekNumber>
+                        <WeekDates>{item.dates}</WeekDates>
                     </StyledLink>
                 )
             })}
@@ -126,11 +129,22 @@ const A = styled.a`
     line-height: 35px;
     font-size: 24px;
     margin-left: 15px;
-    color: lightblue;
+    color: #0096FF;
 
     :hover {
         cursor: pointer;
     }
+
+    @media (max-width: 500px) {
+        font-size: 20px;
+    }
+`;
+
+const Book = styled.span`
+    line-height: 35px;
+    font-size: 24px;
+    margin-left: 15px;
+    color: white;
 
     @media (max-width: 500px) {
         font-size: 20px;

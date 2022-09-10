@@ -14,7 +14,7 @@ export const courses = {
         ],
         attachments: [
             {title: "The Little Prince", link: "https://drive.google.com/file/d/1mpQNIobdXJyvR3ohtwgkrHhmzzarkruK/view?usp=sharing"},
-            {title: "California Wonders Practice Book", link: "https://drive.google.com/file/d/1PI2S5cXkbdYAtJPBggBPw3yhQdsYKUyJ/view?usp=sharing"}
+            {title: "California Wonders Practice Book"}
         ],
         imageSrc: '/assets/little-prince-bg.jpeg',
         week: [
@@ -32,7 +32,36 @@ export const courses = {
                     "California Wonders Practice Book pages 3-4",
                 ],
                 attachments: [
+                    "https://docs.google.com/forms/d/e/1FAIpQLSeg_Pu3Oo5Ax4160m1JrNNkFWLvwB-qPXiFq2cLyAAa_qqT3w/viewform?usp=sf_link",
+                ],
+            },
+            {
+                id: 2,
+                dates: "Sep 23 - Sep 29",
+                class: [
+                    "No class this week!",
+                ],
+                homework: [
+                    "Complete last week's homework by September 30.",
+                ],
+                attachments: [
                     "",
+                ],
+            },
+            {
+                id: 3,
+                dates: "Sep 30 - Oct 6",
+                class: [
+                    "Class discussion: What's your favourite fairy tale?",
+                    "Group work: California Wonders Practice Book pages 6-7",
+                    "Read The Little Prince Chapter 3-4"
+                ],
+                homework: [
+                    "Questions on The Little Prince Chapter 3-4",
+                    "California Wonders Practice Book page 10"
+                ],
+                attachments: [
+                    "https://docs.google.com/forms/d/e/1FAIpQLSchnsnVDW79TSiNB5PUEZ_ySsIPWf-fJ7x686tJFyApCXA7Zw/viewform?usp=sf_link",
                 ],
             }
         ]
@@ -51,7 +80,7 @@ export const courses = {
         ],
         attachments: [
             {title: "Othello", link: "https://drive.google.com/file/d/1suUpb0j52xVXnz9eFzvP1OZC8N2PZtKr/view?usp=sharing"},
-            {title: "The Reader's Choice", link: "https://drive.google.com/file/d/1vBR6lzKSTGhZ8k4J2bheBsr6AjWBNURX/view?usp=sharing"}
+            {title: "The Reader's Choice"}
         ],
         imageSrc: '/assets/othello-bg.jpeg',
         week: [
@@ -60,15 +89,45 @@ export const courses = {
                 dates: "Sep 10 - Sep 16",
                 class: [
                     "Icebreaker games",
-                    "The Lady and the Tiger (textbook pg. 10 - 19)",
+                    "The Lady or the Tiger (textbook pg. 10 - 19)",
                     "Intro to Shakespeare and Othello",
                 ],
                 homework: [
                     "Read Othello Act I Scenes 1-2",
-                    "Homework questions on The Lady and the Tiger and Othello Act I Scene 1-2",
+                    "Homework questions on The Lady or the Tiger and Othello Act I Scene 1-2",
                 ],
                 attachments: [
                     "https://docs.google.com/forms/d/e/1FAIpQLScboVf3S13Mozwwjd7PwUOv1ksizrKJLV8Rk0o-in8UZLX4rw/viewform?usp=sf_link"
+                ],
+            },
+            {
+                id: 2,
+                dates: "Sep 17 - Sep 23",
+                class: [
+                    "Review last week's homework",
+                    "Read The Most Dangerous Game (pg. 22-40)",
+                ],
+                homework: [
+                    "Finish reading The Most Dangerous Game",
+                    "Homework questions on The Most Dangerous Game",
+                ],
+                attachments: [
+                    "https://docs.google.com/forms/d/e/1FAIpQLSdTbZZiBjQVHCwg1YFFCHHHWTV3RLU1kmSjg0gygUdOnelIHA/viewform?usp=sf_link"
+                ],
+            },
+            {
+                id: 3,
+                dates: "Sep 24 - Sep 30",
+                class: [
+                    "Review last week's homework",
+                    "Read Othello Act I Scene 3",
+                ],
+                homework: [
+                    "Homework questions on Othello Act I Scene 3",
+                    "Study for next week's quiz on Othello Act I",
+                ],
+                attachments: [
+                    "https://docs.google.com/forms/d/e/1FAIpQLSctk-w3bUXeMrgnyPMBGirIF0PsIe__e86GeN_3zSrv6m9yiQ/viewform?usp=sf_link"
                 ],
             }
         ]

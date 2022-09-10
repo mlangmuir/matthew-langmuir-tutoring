@@ -53,16 +53,16 @@ const Wrapper = styled.div`
     z-index: 3;
     margin-top: 50px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 `;
 
 const CourseDiv = styled.div`
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-
-    @media (max-width: 1275px) {
-        flex-direction: column;
-    }
+    width: 90%;
 `;
 
 const StyledLink = styled(Link)`
@@ -89,7 +89,7 @@ const Image = styled.img`
     margin-bottom: 20px;
     box-shadow: 0px 0px 60px 0px white;
 
-    @media (max-width: 650px) {
+    @media (max-width: 850px) {
         width: 300px;
         height: 150px;
     }
