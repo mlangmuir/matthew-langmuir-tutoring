@@ -22,7 +22,7 @@ const Contact = () => {
 
     return (
         <Container>
-            {sendSuccess && <Confirmation><p>Thank you for contacting me. I will be in touch as soon as possible!</p></Confirmation>}
+            {sendSuccess && <Confirmation><p>Thank you for contacting me. I will be in touch as soon as possible.</p></Confirmation>}
             <Form onSubmit={handleSubmit} ref={form} style={{display: sendSuccess === true && "none"}}>
                 <Title>CONTACT ME</Title>
                 <Description>Got questions or comments? Drop me a line and I'll get back to you via email as soon as possible!</Description>
