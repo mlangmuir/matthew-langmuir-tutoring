@@ -25,11 +25,11 @@ export const courses = {
                     "Icebreaker games",
                     "The Little Prince characters activity",
                     "The Little Prince Chapters 1-2",
-                    "California Wonders Practice Book pages 1-2",
                 ],
                 homework: [
+                    "Finish reading The Princess and the Pizza",
                     "Questions on The Little Prince Chapters 1-2",
-                    "California Wonders Practice Book pages 3-4",
+                    "Questions on The Princess and the Pizza",
                 ],
                 attachments: [
                     "https://docs.google.com/forms/d/e/1FAIpQLSeg_Pu3Oo5Ax4160m1JrNNkFWLvwB-qPXiFq2cLyAAa_qqT3w/viewform?usp=sf_link",
@@ -40,12 +40,11 @@ export const courses = {
                 dates: "Sep 23 - Sep 29",
                 class: [
                     "Class discussion: What's your favourite fairy tale?",
-                    "Group work: California Wonders Practice Book pages 6-7",
                     "Read The Little Prince Chapter 3-4"
                 ],
                 homework: [
                     "Questions on The Little Prince Chapter 3-4",
-                    "California Wonders Practice Book page 10"
+                    "Questions on Tomas and His Sons"
                 ],
                 attachments: [
                     "https://docs.google.com/forms/d/e/1FAIpQLSchnsnVDW79TSiNB5PUEZ_ySsIPWf-fJ7x686tJFyApCXA7Zw/viewform?usp=sf_link",
