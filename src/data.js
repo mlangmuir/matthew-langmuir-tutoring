@@ -39,19 +39,6 @@ export const courses = {
                 id: 2,
                 dates: "Sep 23 - Sep 29",
                 class: [
-                    "No class this week!",
-                ],
-                homework: [
-                    "Complete last week's homework by September 30.",
-                ],
-                attachments: [
-                    "",
-                ],
-            },
-            {
-                id: 3,
-                dates: "Sep 30 - Oct 6",
-                class: [
                     "Class discussion: What's your favourite fairy tale?",
                     "Group work: California Wonders Practice Book pages 6-7",
                     "Read The Little Prince Chapter 3-4"
