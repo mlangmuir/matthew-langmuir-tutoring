@@ -27,9 +27,8 @@ export const courses = {
                     "The Little Prince Chapters 1-2",
                 ],
                 homework: [
-                    "Finish reading The Princess and the Pizza",
+                    "Finish reading The Little Prince Chapter 2",
                     "Questions on The Little Prince Chapters 1-2",
-                    "Questions on The Princess and the Pizza",
                 ],
                 attachments: [
                     "https://docs.google.com/forms/d/e/1FAIpQLSeg_Pu3Oo5Ax4160m1JrNNkFWLvwB-qPXiFq2cLyAAa_qqT3w/viewform?usp=sf_link",
