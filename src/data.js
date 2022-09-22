@@ -38,12 +38,14 @@ export const courses = {
                 id: 2,
                 dates: "Sep 23 - Sep 29",
                 class: [
-                    "Class discussion: What's your favourite fairy tale?",
+                    "Review last week's homework",
+                    "The Little Prince Chapter 3-4 Vocabulary Exercise",
                     "Read The Little Prince Chapter 3-4"
                 ],
                 homework: [
+                    "Read Experts Incorporated",
                     "Questions on The Little Prince Chapter 3-4",
-                    "Questions on Tomas and His Sons"
+                    "Questions on Experts Incorporated"
                 ],
                 attachments: [
                     "https://docs.google.com/forms/d/e/1FAIpQLSchnsnVDW79TSiNB5PUEZ_ySsIPWf-fJ7x686tJFyApCXA7Zw/viewform?usp=sf_link",
