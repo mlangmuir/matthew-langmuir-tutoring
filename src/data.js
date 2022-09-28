@@ -20,7 +20,7 @@ export const courses = {
         week: [
             {
                 id: 1,
-                dates: "Sep 16 - Sep 22",
+                dates: "Sep 16 - Sep 21",
                 class: [
                     "Icebreaker games",
                     "The Little Prince characters activity",
@@ -36,19 +36,37 @@ export const courses = {
             },
             {
                 id: 2,
-                dates: "Sep 23 - Sep 29",
+                dates: "Sep 22 - Sep 28",
                 class: [
                     "Review last week's homework",
-                    "The Little Prince Chapter 3-4 Vocabulary Exercise",
-                    "Read The Little Prince Chapter 3-4"
+                    "The Little Prince Chapters 3-4 Vocabulary Exercise",
+                    "Read The Little Prince Chapters 3-4"
                 ],
                 homework: [
                     "Read Experts Incorporated",
-                    "Questions on The Little Prince Chapter 3-4",
+                    "Questions on The Little Prince Chapters 3-4",
                     "Questions on Experts Incorporated"
                 ],
                 attachments: [
                     "https://docs.google.com/forms/d/e/1FAIpQLSchnsnVDW79TSiNB5PUEZ_ySsIPWf-fJ7x686tJFyApCXA7Zw/viewform?usp=sf_link",
+                ],
+            },
+            {
+                id: 3,
+                dates: "Sep 29 - Oct 5",
+                class: [
+                    "Review last week's homework",
+                    "Read The Little Prince Chapters 5-7",
+                    "Group Discussion: Bullying",
+                    "Read Speaking Out To Stop Bullying"
+                ],
+                homework: [
+                    "Read Experts Incorporated",
+                    "Questions on The Little Prince Chapters 5-7",
+                    "Questions on Speaking Out To Stop Bullying"
+                ],
+                attachments: [
+                    "https://docs.google.com/forms/d/e/1FAIpQLScnq2Tx3vBOf8GWPRD-Hkn2u7S1Or5TFxWL0Qgwy5PQYidFwA/viewform?usp=sf_link",
                 ],
             }
         ]
