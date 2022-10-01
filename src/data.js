@@ -134,6 +134,25 @@ export const courses = {
                 attachments: [
                     "https://docs.google.com/forms/d/e/1FAIpQLSctk-w3bUXeMrgnyPMBGirIF0PsIe__e86GeN_3zSrv6m9yiQ/viewform?usp=sf_link"
                 ],
+            },
+            {
+                id: 4,
+                dates: "Oct 1 - Oct 6",
+                class: [
+                    "Review last week's homework",
+                    "Othello Act I Quiz",
+                    "Watch Othello Act I",
+                    "Discussion: Othello Movie Questions",
+                    "Preview The Leap Vocabulary",
+                    "Read The Leap"
+                ],
+                homework: [
+                    "Finish reading The Leap",
+                    "The Leap long answer question"
+                ],
+                attachments: [
+                    "https://docs.google.com/forms/d/e/1FAIpQLSeFfQ4u94zp8SyA4E2dOBRKupl7PTNG6mXlw2ZYA4f2khUpjA/viewform?usp=sf_link"
+                ],
             }
         ]
     },
