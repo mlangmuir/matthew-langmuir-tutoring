@@ -76,7 +76,7 @@ export const courses = {
                     "Review last week's homework",
                     "Read The Little Prince Chapters 8-9",
                     "Group Activity: Check Your Understanding of Ch. 4-9",
-                    "Class Discussion: Earthquakes"
+                    "Class Discussion: Earthquakes",
                     "Read Earthquakes"
                 ],
                 homework: [
