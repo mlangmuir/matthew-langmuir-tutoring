@@ -68,6 +68,25 @@ export const courses = {
                 attachments: [
                     "https://docs.google.com/forms/d/e/1FAIpQLScnq2Tx3vBOf8GWPRD-Hkn2u7S1Or5TFxWL0Qgwy5PQYidFwA/viewform?usp=sf_link",
                 ],
+            },
+            {
+                id: 4,
+                dates: "Oct 6 - Oct 12",
+                class: [
+                    "Review last week's homework",
+                    "Read The Little Prince Chapters 8-9",
+                    "Group Activity: Check Your Understanding of Ch. 4-9",
+                    "Class Discussion: Earthquakes"
+                    "Read Earthquakes"
+                ],
+                homework: [
+                    "Finsh reading Earthquakes",
+                    "Questions on The Little Prince Chapters 8-9",
+                    "Questions on Earthquakes"
+                ],
+                attachments: [
+                    "https://docs.google.com/forms/d/e/1FAIpQLSfPqSPlOKkYyDzBLKYTwoT7dbXityzztune1-B3bKvFbjd5tw/viewform?usp=sf_link",
+                ],
             }
         ]
     },
