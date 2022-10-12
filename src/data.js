@@ -80,14 +80,28 @@ export const courses = {
                     "Read Earthquakes"
                 ],
                 homework: [
-                    "Finsh reading Earthquakes",
+                    "Finish reading Earthquakes",
                     "Questions on The Little Prince Chapters 8-9",
                     "Questions on Earthquakes"
                 ],
                 attachments: [
                     "https://docs.google.com/forms/d/e/1FAIpQLSfPqSPlOKkYyDzBLKYTwoT7dbXityzztune1-B3bKvFbjd5tw/viewform?usp=sf_link",
                 ],
-            }
+            },
+            {
+                id: 5,
+                dates: "Oct 13 - Oct 19",
+                class: [
+                    "Review last week's homework",
+                    "Review The Little Prince Chapters 1-9",
+                    "Read The Little Prince Chapters 10-12",
+                    "Kahoot Review: Chapters 1-12",
+                    "Read Tornadoes"
+                ],
+                homework: [
+                    "Study for next week's test on The Little Prince Chapters 1-12",
+                ]
+            },
         ]
     },
 
@@ -156,7 +170,7 @@ export const courses = {
             },
             {
                 id: 4,
-                dates: "Oct 1 - Oct 6",
+                dates: "Oct 1 - Oct 7",
                 class: [
                     "Review last week's homework",
                     "Othello Act I Quiz",
@@ -171,6 +185,32 @@ export const courses = {
                 ],
                 attachments: [
                     "https://docs.google.com/forms/d/e/1FAIpQLSeFfQ4u94zp8SyA4E2dOBRKupl7PTNG6mXlw2ZYA4f2khUpjA/viewform?usp=sf_link"
+                ],
+            },
+            {
+                id: 4,
+                dates: "Oct 8 - Oct 14",
+                class: [
+                    "No class this week. Happy Thanksgiving!"
+                ],
+                homework: [
+                    "See last week's homework."
+                ]
+            },
+            {
+                id: 5,
+                dates: "Oct 15 - Oct 21",
+                class: [
+                    "Class Discussion: Share answers to homework question: What do you think is the most dramatic event in The Leap?",
+                    "Othello Act I Recap",
+                    "Read Othello Act II Scene 1",
+                    "Act II Scene 1 Group Activity: Othello’s Ship Log"
+                ],
+                homework: [
+                    "Act II Scene 1 Questions 1-5"
+                ],
+                attachments: [
+                    "https://forms.gle/iKLAea67zLcb3pWC8"
                 ],
             }
         ]
