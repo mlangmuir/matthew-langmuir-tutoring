@@ -195,7 +195,10 @@ export const courses = {
                 ],
                 homework: [
                     "See last week's homework."
-                ]
+                ],
+                attachments: [
+                    "",
+                ],
             },
             {
                 id: 6,
