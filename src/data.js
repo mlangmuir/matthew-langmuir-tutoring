@@ -188,7 +188,7 @@ export const courses = {
                 ],
             },
             {
-                id: 4,
+                id: 5,
                 dates: "Oct 8 - Oct 14",
                 class: [
                     "No class this week. Happy Thanksgiving!"
@@ -198,7 +198,7 @@ export const courses = {
                 ]
             },
             {
-                id: 5,
+                id: 6,
                 dates: "Oct 15 - Oct 21",
                 class: [
                     "Class Discussion: Share answers to homework question: What do you think is the most dramatic event in The Leap?",
