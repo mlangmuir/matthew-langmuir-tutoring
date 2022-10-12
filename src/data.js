@@ -100,7 +100,10 @@ export const courses = {
                 ],
                 homework: [
                     "Study for next week's test on The Little Prince Chapters 1-12",
-                ]
+                ],
+                attachments: [
+                    "",
+                ],
             },
         ]
     },
