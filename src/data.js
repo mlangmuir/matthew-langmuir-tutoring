@@ -105,6 +105,23 @@ export const courses = {
                     "",
                 ],
             },
+            {
+                id: 6,
+                dates: "Oct 20 - Oct 26",
+                class: [
+                    "Test on The Little Prince Chapters 1-12",
+                    "Read The Little Prince Chapters 13-14",
+                    "Textbook readings: The Box-Zip Project, Kids in Business, Starting a Successful Business",
+                    "Individual activity: Come up with your own business idea!"
+                ],
+                homework: [
+                    "Textbook readings: The Box-Zip Project, Kids in Business, Starting a Successful Business Questions 1-3",
+                    "The Little Prince Chapters 13-14: Questions 1-3"
+                ],
+                attachments: [
+                    "https://forms.gle/Y2Cg7B9aFPkE3ZCP7"
+                ],
+            },
         ]
     },
 
@@ -217,6 +234,23 @@ export const courses = {
                 ],
                 attachments: [
                     "https://forms.gle/iKLAea67zLcb3pWC8"
+                ],
+            },
+            {
+                id: 7,
+                dates: "Oct 22 - Oct 28",
+                class: [
+                    "Review last week's homework questions",
+                    "Read Act II Scene 2",
+                    "Discussion Questions: The Proclamation",
+                    "Lecture: Edgar Allan Poe and Carnival",
+                    "Read The Cask of Amontillado"
+                ],
+                homework: [
+                    "The Cask of Amontillado Questions 1-5"
+                ],
+                attachments: [
+                    "https://forms.gle/xC2ugAvgNMafcNLN9"
                 ],
             }
         ]
