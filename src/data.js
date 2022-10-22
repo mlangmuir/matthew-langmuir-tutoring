@@ -122,6 +122,22 @@ export const courses = {
                     "https://forms.gle/Y2Cg7B9aFPkE3ZCP7"
                 ],
             },
+            {
+                id: 7,
+                dates: "Oct 27 - Nov 2",
+                class: [
+                    "Review last week's homework",
+                    "Read The Little Prince Chapters 15-19",
+                    "Textbook reading: The Secret Message",
+                ],
+                homework: [
+                    "The Little Prince Chapters 15-19: Questions 1-3",
+                    "Textbook reading: The Secret Message Questions 1-2",
+                ],
+                attachments: [
+                    "https://forms.gle/uhoeq9xepTPZ4ofi8"
+                ],
+            },
         ]
     },
 
@@ -251,6 +267,23 @@ export const courses = {
                 ],
                 attachments: [
                     "https://forms.gle/xC2ugAvgNMafcNLN9"
+                ],
+            },
+            {
+                id: 8,
+                dates: "Oct 29 - Nov 4",
+                class: [
+                    "Review last week's homework",
+                    "Read Othello Act II Scene 3",
+                    "Memorable Headlines Activity",
+                    "Othello Act II Kahoot Review"
+                ],
+                homework: [
+                    "Othello Act II Scene 3 Questions 1-3",
+                    "Study for next week's quiz on Othello Act II"
+                ],
+                attachments: [
+                    "https://forms.gle/1A8h2eDWrtf7BK1w8"
                 ],
             }
         ]
