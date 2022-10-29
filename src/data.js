@@ -285,7 +285,25 @@ export const courses = {
                 attachments: [
                     "https://forms.gle/1A8h2eDWrtf7BK1w8"
                 ],
-            }
+            },
+            {
+                id: 9,
+                dates: "Nov 5 - Nov 11",
+                class: [
+                    "Review last week's homework",
+                    "Watch Act II of the Othello Movie",
+                    "Act II Quiz",
+                    "Read Othello Act III Scenes 1-2",
+                    "Read Blues Ain't No Mocking Bird"
+                ],
+                homework: [
+                    "Othello Act III Scenes 1-2 Questions 1-3",
+                    "Blues Ain't No Mocking Bird Questions 1-2"
+                ],
+                attachments: [
+                    "https://docs.google.com/forms/d/e/1FAIpQLSdwP8bBvAgJvCAoWWi9NNB2BYkBqALbgilCtgjuSkQJLZB_kw/viewform?usp=sf_link"
+                ],
+            },
         ]
     },
 
