@@ -138,6 +138,23 @@ export const courses = {
                     "https://forms.gle/uhoeq9xepTPZ4ofi8"
                 ],
             },
+            {
+                id: 8,
+                dates: "Nov 3 - Nov 9",
+                class: [
+                    "Review last week's homework",
+                    "Read The Little Prince Chapters 20-22",
+                    "Textbook readings: The Fox and the Goat and Ranita",
+                ],
+                homework: [
+                    "The Little Prince Chapters 20-22: Questions 1-3",
+                    "Textbook reading: The Fox and the Goat and Ranita Questions 1-2",
+                    "Study for next week's quiz on The Little Prince Chapters 13-22"
+                ],
+                attachments: [
+                    "https://docs.google.com/forms/d/e/1FAIpQLSdm-T-0nWJMhYgNiOXuy-MWZ2A0gg4_KvwroMAJ2ITGSJoVdg/viewform?usp=sf_link"
+                ],
+            },
         ]
     },
 
