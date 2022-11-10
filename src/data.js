@@ -155,6 +155,22 @@ export const courses = {
                     "https://docs.google.com/forms/d/e/1FAIpQLSdm-T-0nWJMhYgNiOXuy-MWZ2A0gg4_KvwroMAJ2ITGSJoVdg/viewform?usp=sf_link"
                 ],
             },
+            {
+                id: 9,
+                dates: "Nov 10 - Nov 16",
+                class: [
+                    "Review last week's homework",
+                    "Read The Little Prince Chapters 23-25",
+                    "Textbook readings: The Moonlight Concert Mystery and The Buffalo are Back",
+                ],
+                homework: [
+                    "The Little Prince Chapters 23-25: Questions 1-3",
+                    "Textbook reading: The Moonlight Concert Mystery and The Buffalo are Back Questions 1-2",
+                ],
+                attachments: [
+                    "https://docs.google.com/forms/d/e/1FAIpQLSdm-T-0nWJMhYgNiOXuy-MWZ2A0gg4_KvwroMAJ2ITGSJoVdg/viewform?usp=sf_link"
+                ],
+            },
         ]
     },
 
