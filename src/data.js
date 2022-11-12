@@ -343,7 +343,7 @@ export const courses = {
                 dates: "Nov 12 - Nov 18",
                 class: [
                     "Review last week's homework",
-                    "Read Othello Act III Scenes 3",
+                    "Read Othello Act III Scene 3",
                     "Scene 3 Activity"
                 ],
                 homework: [
