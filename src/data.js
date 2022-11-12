@@ -338,6 +338,21 @@ export const courses = {
                     "https://docs.google.com/forms/d/e/1FAIpQLSdwP8bBvAgJvCAoWWi9NNB2BYkBqALbgilCtgjuSkQJLZB_kw/viewform?usp=sf_link"
                 ],
             },
+            {
+                id: 10,
+                dates: "Nov 12 - Nov 18",
+                class: [
+                    "Review last week's homework",
+                    "Read Othello Act III Scenes 3",
+                    "Scene 3 Activity"
+                ],
+                homework: [
+                    "Othello Act III Scenes 3 Questions 1-5",
+                ],
+                attachments: [
+                    "https://docs.google.com/forms/d/e/1FAIpQLSdhsTRM8dO5rxln8s3oO5_YU_pshvmQThnUBEsqUHcXEH680A/viewform?usp=sf_link"
+                ],
+            },
         ]
     },
 
