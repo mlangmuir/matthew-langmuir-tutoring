@@ -172,6 +172,19 @@ export const courses = {
                     "https://docs.google.com/forms/d/e/1FAIpQLSd2XPIe9yfPipLx9PKMtA8uxJkny-GoMNAFC-fCRvI8cipL_w/viewform?usp=sf_link"
                 ],
             },
+            {
+                id: 10,
+                dates: "Nov 10 - Nov 16",
+                class: [
+                    "Review last week's homework",
+                    "The Little Prince Quiz Chapters 26-27",
+                    "Read Sherlock Holmes: The Speckled Band",
+                    "Game: Your Turn, Sherlock!"
+                ],
+                homework: [
+                    "Study for next week's quiz on The Little Prince (entire book)",
+                ]
+            },
         ]
     },
 
@@ -351,6 +364,25 @@ export const courses = {
                 ],
                 attachments: [
                     "https://docs.google.com/forms/d/e/1FAIpQLSdhsTRM8dO5rxln8s3oO5_YU_pshvmQThnUBEsqUHcXEH680A/viewform?usp=sf_link"
+                ],
+            },
+            {
+                id: 11,
+                dates: "Nov 19 - Nov 25",
+                class: [
+                    "Review last week's homework",
+                    "Read Othello Act III Scene 4",
+                    "Activity: Key Moments in Act III",
+                    "Group Discussion: Have you ever experienced a sudden change in a relationship?",
+                    "Read The Interlopers"
+                ],
+                homework: [
+                    "Othello Act III Scenes 4 Questions 1-3",
+                    "The Interlopers Questions 1-2",
+                    "Study for next week's Act III Quiz"
+                ],
+                attachments: [
+                    "https://docs.google.com/forms/d/e/1FAIpQLSdWS_VIO4NEKqnJRvvBycRV7Ph5AfCqT-sD3EhiDY386Zzi_w/viewform?usp=sf_link"
                 ],
             },
         ]
