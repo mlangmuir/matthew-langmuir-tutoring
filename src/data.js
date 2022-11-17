@@ -183,7 +183,10 @@ export const courses = {
                 ],
                 homework: [
                     "Study for next week's quiz on The Little Prince (entire book)",
-                ]
+                ],
+                attachments: [
+                    ""
+                ],
             },
         ]
     },
