@@ -174,7 +174,7 @@ export const courses = {
             },
             {
                 id: 10,
-                dates: "Nov 10 - Nov 16",
+                dates: "Nov 17 - Nov 23",
                 class: [
                     "Review last week's homework",
                     "The Little Prince Quiz Chapters 26-27",
