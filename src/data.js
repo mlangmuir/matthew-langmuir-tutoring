@@ -177,7 +177,7 @@ export const courses = {
                 dates: "Nov 17 - Nov 23",
                 class: [
                     "Review last week's homework",
-                    "The Little Prince Quiz Chapters 26-27",
+                    "Read The Little Prince Chapters 26-27",
                     "Read Sherlock Holmes: The Speckled Band",
                     "Game: Your Turn, Sherlock!"
                 ],
