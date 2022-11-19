@@ -178,14 +178,29 @@ export const courses = {
                 class: [
                     "Review last week's homework",
                     "Read The Little Prince Chapters 26-27",
-                    "Read Sherlock Holmes: The Speckled Band",
-                    "Game: Your Turn, Sherlock!"
+                    "Read Sherlock Holmes: The Speckled Band Part 1",
                 ],
                 homework: [
                     "Study for next week's quiz on The Little Prince (entire book)",
                 ],
                 attachments: [
                     ""
+                ],
+            },
+            {
+                id: 11,
+                dates: "Nov 24 - Nov 30",
+                class: [
+                    "The Little Prince Kahoot Review",
+                    "The Little Prince Final Quiz",
+                    "Read Sherlock Holmes: The Speckled Band Part 2",
+                    "Game: Your Turn, Sherlock"
+                ],
+                homework: [
+                    "Write a 100-word summary of Sherlock Holmes: The Speckled Band",
+                ],
+                attachments: [
+                    "https://docs.google.com/forms/d/e/1FAIpQLSfSjXdWVlLHYW54ajcNzguf7tqPQgyhuCQTNVTRh4xL4FXd6w/viewform?usp=sf_link"
                 ],
             },
         ]
@@ -386,6 +401,23 @@ export const courses = {
                 ],
                 attachments: [
                     "https://docs.google.com/forms/d/e/1FAIpQLSdWS_VIO4NEKqnJRvvBycRV7Ph5AfCqT-sD3EhiDY386Zzi_w/viewform?usp=sf_link"
+                ],
+            },
+            {
+                id: 12,
+                dates: "Nov 26 - Dec 2",
+                class: [
+                    "Review last week's homework",
+                    "Watch Act III of Othello movie",
+                    "Othello Act III Kahoot Review",
+                    "Othello Act III Quiz",
+                    "Read Act IV Scene 1"
+                ],
+                homework: [
+                    "Othello Act IV Scene 1 Questions 1-3",
+                ],
+                attachments: [
+                    "https://docs.google.com/forms/d/e/1FAIpQLSed5hFDaOa4HT7iIszNcFTk0FUygLnOqslDc3mHzK5sO61Tmw/viewform?usp=sf_link"
                 ],
             },
         ]
