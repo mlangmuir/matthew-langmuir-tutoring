@@ -203,6 +203,22 @@ export const courses = {
                     "https://docs.google.com/forms/d/e/1FAIpQLSfSjXdWVlLHYW54ajcNzguf7tqPQgyhuCQTNVTRh4xL4FXd6w/viewform?usp=sf_link"
                 ],
             },
+            {
+                id: 12,
+                dates: "Dec 1 - Dec 7",
+                class: [
+                    "Review last week's homework",
+                    "Read Sherlock Holmes: A Scandal in Bohemia",
+                    "Read Sherlock Holmes: The Five Orange Pips",
+                    "Game: Your Turn, Sherlock"
+                ],
+                homework: [
+                    "Sherlock Holmes: 100-word paragraph response",
+                ],
+                attachments: [
+                    "https://docs.google.com/forms/d/e/1FAIpQLSc4yLEdm2KKJ_xw59cNcSoJF4dMzXQD2tIt4hogzspOIT17oQ/viewform?usp=sf_link"
+                ],
+            },
         ]
     },
 
@@ -414,10 +430,24 @@ export const courses = {
                     "Read Act IV Scene 1"
                 ],
                 homework: [
-                    "Othello Act IV Scene 1 Questions 1-3",
+                    "Othello Act IV Scene 1 Questions 1-2",
                 ],
                 attachments: [
                     "https://docs.google.com/forms/d/e/1FAIpQLSed5hFDaOa4HT7iIszNcFTk0FUygLnOqslDc3mHzK5sO61Tmw/viewform?usp=sf_link"
+                ],
+            },
+            {
+                id: 13,
+                dates: "Dec 3 - Dec 9",
+                class: [
+                    "Review last week's homework",
+                    "Read Act IV Scenes 2-3"
+                ],
+                homework: [
+                    "Othello Act IV Scenes 2-3 Questions 1-2",
+                ],
+                attachments: [
+                    "https://docs.google.com/forms/d/e/1FAIpQLSeW_tHkv93GetDqNxKJ2C352pkHekgz_pXUazHh-jKYyKtJIA/viewform?usp=sf_link"
                 ],
             },
         ]
