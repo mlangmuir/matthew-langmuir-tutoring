@@ -219,6 +219,20 @@ export const courses = {
                     "https://docs.google.com/forms/d/e/1FAIpQLSc4yLEdm2KKJ_xw59cNcSoJF4dMzXQD2tIt4hogzspOIT17oQ/viewform?usp=sf_link"
                 ],
             },
+            {
+                id: 13,
+                dates: "Dec 8 - Dec 14",
+                class: [
+                    "PowerPoint Presentation: Speech Writing & Public Speaking",
+                    "Public Speaking Activities"
+                ],
+                homework: [
+                    "Final Project: Speech Writing & Public Speaking (see link below for details)",
+                ],
+                attachments: [
+                    "https://docs.google.com/presentation/d/1kABfdUzEjNTTsQ0DxVyTarO8FszYi82h57rAXR9olHA/edit?usp=sharing"
+                ],
+            },
         ]
     },
 
