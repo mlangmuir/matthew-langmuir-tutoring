@@ -464,6 +464,23 @@ export const courses = {
                     "https://docs.google.com/forms/d/e/1FAIpQLSeW_tHkv93GetDqNxKJ2C352pkHekgz_pXUazHh-jKYyKtJIA/viewform?usp=sf_link"
                 ],
             },
+            {
+                id: 14,
+                dates: "Dec 10 - Dec 16",
+                class: [
+                    "Review last week's homework",
+                    "PowerPoint Presentation: Speech Writing & Public Speaking",
+                    "Public Speaking Activities",
+                    "Read Act V"
+                ],
+                homework: [
+                    "Final Project: Speech Writing & Public Speaking (see link below for details)",
+                    "Finish reading Act V"
+                ],
+                attachments: [
+                    "https://docs.google.com/presentation/d/17cJ0Sa9QejdGaNf1eMXZR_m3Yo0PoelC600hWpAC0_g/edit?usp=sharing"
+                ],
+            },
         ]
     },
 
