@@ -4,7 +4,7 @@ export const courses = {
     d: {
         id: 'd',
         name: 'The Little Prince and California Wonders',
-        dates: 'September 16, 2022 - December, 2022',
+        dates: 'September 16, 2022 - December 15, 2022',
         description: 'In this online fall course, we will be reading the English translation of the French classic "The Little Prince". We will also be using the Grade 4 California Wonders textbook to develop some practical reading and writing skills.',
         evaluation: [
             "Class participation: 15%",
@@ -239,7 +239,7 @@ export const courses = {
     c: {
         id: 'c',
         name: "Othello and The Reader's Choice",
-        dates: 'September 10, 2022 - December, 2022',
+        dates: 'September 10, 2022 - December 17, 2022',
         description: "In this online fall course, we will be reading 'Othello' by William Shakespeare, arguably the most influential writer in English literature. We will also using 'The Reader's Choice' textbook to bolster to students' reading and writing skills. At the end of the course, a final essay will assigned to assess their writing skills.",
         evaluation: [
             "Class participation: 10%",
