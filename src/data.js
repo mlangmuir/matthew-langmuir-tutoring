@@ -244,8 +244,8 @@ export const courses = {
         evaluation: [
             "Class participation: 10%",
             "Weekly homework assignments: 30%",
-            "5 quizzes - 6% each: 30%",
-            "Final essay: 30%"
+            "3 quizzes - 10% each: 30%",
+            "Final project: 30%"
         ],
         attachments: [
             {title: "Othello", link: "https://drive.google.com/file/d/1suUpb0j52xVXnz9eFzvP1OZC8N2PZtKr/view?usp=sharing"},
