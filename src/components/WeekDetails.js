@@ -44,7 +44,7 @@ const WeekDetails = () => {
                     return (
                         <ul key={index}>
                             {item !== "" &&
-                                <Description><A href={item} target="_blank">Click here to access homework questions</A></Description>
+                                <Description><A href={item} target="_blank">Click here to access homework</A></Description>
                             }
                         </ul>
                     )
@@ -79,7 +79,7 @@ const WeekDetails = () => {
                         return (
                             <ul key={index}>
                                 {item !== "" &&
-                                    <Description><A href={item} target="_blank">Click here to access homework questions</A></Description>
+                                    <Description><A href={item} target="_blank">Click here to access homework</A></Description>
                                 }
                             </ul>
                         )
