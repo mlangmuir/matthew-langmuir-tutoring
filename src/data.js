@@ -22,31 +22,68 @@ export const courses = {
                     "Fri, Dec 30"
                 ],
                 class: [
-                    "test",
+                    "Introduction to C.S. Lewis and The Chronicles of Narnia",
+                    "Lecture on The Magician's Nephew",
+                    "Book club discussion on The Magician's Nephew"
                 ],
                 homework: [
-                    "test",
+                    "Finish reading The Magician's Nephew",
+                    "Study for quiz on The Magician's Nephew",
+                    "The Magician's Nephew Questions 1-5"
                 ],
                 attachments: [
                     "",
                 ],
                 classTwo: [
-                    "test",
+                    "The Magician's Nephew Kahoot Review",
+                    "Lecture on The Magician's Nephew",
+                    "Quiz on The Magician's Nephew",
+                    "Lecture on The Lion, The Witch and The Wardrobe",
                 ],
                 homeworkTwo: [
-                    "test",
+                    "Read The Lion, The Witch and The Wardrobe Chapters 1-8",
+                    "The Lion, The Witch and The Wardrobe Chapters 1-8 Questions 1-5"
                 ],
                 attachmentsTwo: [
                     "",
                 ],
                 classThree: [
-                    "test",
+                    "The Lion, The Witch and The Wardrobe Kahoot Review",
+                    "Book club discussion on The Lion, The Witch and The Wardrobe",
+                    "Quiz on The Lion, The Witch and The Wardrobe",
+                    "Introduction to group project",
                 ],
                 homeworkThree: [
-                    "test",
+                    "Read The Lion, The Witch and The Wardrobe Chapters 9-17",
                 ],
                 attachmentsThree: [
+                    "Study for quiz on The Lion, The Witch and The Wardrobe",
+                    "The Lion, The Witch and The Wardrobe Chapters 9-17 Questions 1-5"
+                ],
+            },
+            {
+                id: 2,
+                dates: "Jan 2 - Jan 4",
+                classDates: [
+                    "Mon, Jan 2",
+                    "Wed, Jan 4",
+                ],
+                class: [
+                    "The Lion, The Witch and The Wardrobe Kahoot Review",
+                    "Book club discussion on The Lion, The Witch and The Wardrobe",
+                    "Quiz on The Lion, The Witch and The Wardrobe",
+                    "Group project time",
+                ],
+                homework: [
+                    "Finish group project",
+                ],
+                attachments: [
                     "",
+                ],
+                classTwo: [
+                    "Last group project work period",
+                    "Group project presentation",
+                    "Final book club discussion: movie-book comparison"
                 ],
             },
         ]
