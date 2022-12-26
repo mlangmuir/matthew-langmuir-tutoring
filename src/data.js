@@ -4,10 +4,10 @@ export const courses = {
         id: 'e',
         name: "The Magician's Nephew and The Lion, The Witch and The Wardrobe",
         dates: 'December 26, 2022 - January 4, 2023',
-        description: 'In this online fall course, we will be reading the English translation of the French classic "The Little Prince". We will also be using the Grade 4 California Wonders textbook to develop some practical reading and writing skills.',
+        description: "In this online winter course, we will be reading the first two books in C.S. Lewis' classic series 'The Chronicles of Narnia'. In class, students will be challenged to engage in book club discussions and participate in a final group project that will put their writing and speaking skills to the test.",
         evaluation: [
-            "Class participation: 20%",
-            "Homework assignments: 25%",
+            "Class participation: 15%",
+            "3 homework assignments - 10% each: 30%",
             "2 quizzes - 15% each: 30%",
             "Group project: 25%"
         ],
