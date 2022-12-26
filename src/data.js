@@ -32,11 +32,11 @@ export const courses = {
                     "The Magician's Nephew Questions 1-5"
                 ],
                 attachments: [
-                    "",
+                    "https://forms.gle/kQtionRWi84Zj2CB9",
                 ],
                 classTwo: [
                     "The Magician's Nephew Kahoot Review",
-                    "Lecture on The Magician's Nephew",
+                    "Book club discussion on The Magician's Nephew",
                     "Quiz on The Magician's Nephew",
                     "Lecture on The Lion, The Witch and The Wardrobe",
                 ],
@@ -45,7 +45,7 @@ export const courses = {
                     "The Lion, The Witch and The Wardrobe Chapters 1-8 Questions 1-5"
                 ],
                 attachmentsTwo: [
-                    "",
+                    "https://forms.gle/rJmXGJauajQ6oyMbA",
                 ],
                 classThree: [
                     "The Lion, The Witch and The Wardrobe Kahoot Review",
@@ -55,10 +55,11 @@ export const courses = {
                 ],
                 homeworkThree: [
                     "Read The Lion, The Witch and The Wardrobe Chapters 9-17",
-                ],
-                attachmentsThree: [
                     "Study for quiz on The Lion, The Witch and The Wardrobe",
                     "The Lion, The Witch and The Wardrobe Chapters 9-17 Questions 1-5"
+                ],
+                attachmentsThree: [
+                    "https://forms.gle/sTnBEFMcp49FUmK96"
                 ],
             },
             {
@@ -78,7 +79,7 @@ export const courses = {
                     "Finish group project",
                 ],
                 attachments: [
-                    "",
+                    "https://docs.google.com/presentation/d/1kRav5PtT0OrJ9fTVbVwt5nnMlu0d5AKX_kxjRgoEihA/edit?usp=sharing",
                 ],
                 classTwo: [
                     "Last group project work period",
