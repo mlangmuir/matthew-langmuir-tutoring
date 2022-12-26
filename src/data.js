@@ -86,10 +86,10 @@ export const courses = {
                     "Group project presentation",
                     "Final book club discussion: movie-book comparison"
                 ],
-                homework: [
+                homeworkTwo: [
                     "",
                 ],
-                attachments: [
+                attachmentsTwo: [
                     "",
                 ],
             },
