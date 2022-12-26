@@ -1,5 +1,56 @@
 export const courses = {
 
+    e: {
+        id: 'e',
+        name: "The Magician's Nephew and The Lion, The Witch and The Wardrobe",
+        dates: 'December 26, 2022 - January 4, 2023',
+        description: 'In this online fall course, we will be reading the English translation of the French classic "The Little Prince". We will also be using the Grade 4 California Wonders textbook to develop some practical reading and writing skills.',
+        evaluation: [
+            "Class participation: 20%",
+            "Homework assignments: 25%",
+            "2 quizzes - 15% each: 30%",
+            "Group project: 25%"
+        ],
+        imageSrc: '/assets/narnia-bg.jpeg',
+        week: [
+            {
+                id: 1,
+                dates: "Dec 26 - Dec 30",
+                classDates: [
+                    "Mon, Dec 26",
+                    "Wed, Dec 28",
+                    "Fri, Dec 30"
+                ],
+                class: [
+                    "test",
+                ],
+                homework: [
+                    "test",
+                ],
+                attachments: [
+                    "",
+                ],
+                classTwo: [
+                    "test",
+                ],
+                homeworkTwo: [
+                    "test",
+                ],
+                attachmentsTwo: [
+                    "",
+                ],
+                classThree: [
+                    "test",
+                ],
+                homeworkThree: [
+                    "test",
+                ],
+                attachmentsThree: [
+                    "",
+                ],
+            },
+        ]
+    },
 
     d: {
         id: 'd',

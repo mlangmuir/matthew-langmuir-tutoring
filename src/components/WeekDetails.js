@@ -86,6 +86,43 @@ const WeekDetails = () => {
                         })}
                     </ClassTwoDiv>
                 }
+
+                {weekData.classThree &&
+                    <ClassThreeDiv>
+                        <ClassDate>{weekData.classDates[2]}</ClassDate>
+                        <SectionTitle>In class:</SectionTitle>
+                        {weekData?.classThree.map((item, index) => {
+                            return (
+                                <ul key={index}>
+                                    <Description key={index}>{item}</Description>
+                                </ul>
+                            )
+                        })}
+                        {weekData?.homeworkThree[0] !== "" &&
+                            <SectionTitle>Homework:</SectionTitle>
+                        }
+                        {weekData?.homeworkThree.map((item, index) => {
+                            return (
+                                <div key={index}>
+                                    {item !== "" &&
+                                        <ul>
+                                            <Description key={index}>{item}</Description>
+                                        </ul>
+                                    }
+                                </div>
+                            )
+                        })}
+                        {weekData.attachmentsThree.map((item, index) => {
+                        return (
+                            <ul key={index}>
+                                {item !== "" &&
+                                    <Description><A href={item} target="_blank">Click here to access homework</A></Description>
+                                }
+                            </ul>
+                        )
+                        })}
+                    </ClassThreeDiv>
+                }
             </TextDiv>
             <CoverShade />
             <Background src={courses[courseId.courseId].imageSrc} alt="homework-page-background" />
@@ -182,6 +219,10 @@ const A = styled.a`
 `;
 
 const ClassTwoDiv = styled.div`
+    margin-top: 150px;
+`;
+
+const ClassThreeDiv = styled.div`
     margin-top: 150px;
 `;
 
