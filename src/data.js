@@ -48,10 +48,9 @@ export const courses = {
                     "https://forms.gle/rJmXGJauajQ6oyMbA",
                 ],
                 classThree: [
-                    "The Lion, The Witch and The Wardrobe Kahoot Review",
                     "Book club discussion on The Lion, The Witch and The Wardrobe",
-                    "Quiz on The Lion, The Witch and The Wardrobe",
                     "Introduction to group project",
+                    "Group project time",
                 ],
                 homeworkThree: [
                     "Read The Lion, The Witch and The Wardrobe Chapters 9-17",
