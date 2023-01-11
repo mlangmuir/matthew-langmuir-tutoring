@@ -11,7 +11,7 @@ export const courses = {
             "Quizzes: 25%",
             "Group project: 25%"
         ],
-        imageSrc: '/assets/holes-bg.jpeg',
+        imageSrc: '/assets/holes-bg.jpg',
         week: [
             {
                 id: 1,
