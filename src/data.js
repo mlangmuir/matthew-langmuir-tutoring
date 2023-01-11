@@ -49,13 +49,15 @@ export const courses = {
                 id: 1,
                 dates: "Jan 14 - Jan 20",
                 class: [
-                    "test"
+                    "Lecture: Introduction to Hamlet",
+                    "Read Act I Scene 1",
+                    "Act I Vocabulary Worksheet",
                 ],
                 homework: [
-                    "test"
+                    "Act I Scene 1 Questions 1-5"
                 ],
                 attachments: [
-                    "test",
+                    "https://forms.gle/NShvWhdDEA5K5wVVA",
                 ]
             },
         ]
