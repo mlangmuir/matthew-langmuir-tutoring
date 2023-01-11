@@ -1,5 +1,66 @@
 export const courses = {
 
+    g: {
+        id: 'g',
+        name: "Louis Sachar's Holes",
+        dates: 'January 12, 2023 - June 2023',
+        description: "In this course, we will be reading Louis Sachar's award-winning novel 'Holes'. Assignments will be heavily focused on writing this semester and students will have the chance to showcase their public speaking skills during the final group project.",
+        evaluation: [
+            "Class participation: 25%",
+            "Homework assignments: 25%",
+            "Quizzes: 25%",
+            "Group project: 25%"
+        ],
+        imageSrc: '/assets/holes-bg.jpeg',
+        week: [
+            {
+                id: 1,
+                dates: "Jan 14 - Jan 20",
+                class: [
+                    "Icebreaker: Have Fun with Virtual Backgrounds",
+                    "Discussing Your Objectives: What do you want to achieve in this class?",
+                    "PowerPoint - Introduction to Holes",
+                    "Sentence Correction Exercises"
+                ],
+                homework: [
+                    "100-word composition: What are your goals for English class this semester?"
+                ],
+                attachments: [
+                    "https://forms.gle/MiHJc87FNSAHYoYy6",
+                ]
+            },
+        ]
+    },
+
+    f: {
+        id: 'f',
+        name: "William Shakespeare's Hamlet",
+        dates: 'January 7, 2023 - June 2023',
+        description: "In this course, we will be reading William Shakespeare's 'Hamlet'. Assignments will be heavily focused on writing this semester and students will have the chance to showcase their public speaking skills during the final group project.",
+        evaluation: [
+            "Class participation: 25%",
+            "Homework assignments: 25%",
+            "Quizzes: 25%",
+            "Group project: 25%"
+        ],
+        imageSrc: '/assets/hamlet-bg.jpeg',
+        week: [
+            {
+                id: 1,
+                dates: "Jan 14 - Jan 20",
+                class: [
+                    "test"
+                ],
+                homework: [
+                    "test"
+                ],
+                attachments: [
+                    "test",
+                ]
+            },
+        ]
+    },
+
     e: {
         id: 'e',
         name: "The Magician's Nephew and The Lion, The Witch and The Wardrobe",
