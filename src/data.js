@@ -36,7 +36,8 @@ export const courses = {
                     "Vocabulary Worksheet - Chapters 1-3",
                     "Read Holes Chapters 1-3",
                     "PowerPoint - Analysis of Chapters 1-3",
-                    "Watch Holes movie"
+                    "Watch Holes movie",
+                    "Discussion: Movie-book comparison"
                 ],
                 homework: [
                     "Week 1 Corrections",
