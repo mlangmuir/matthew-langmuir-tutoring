@@ -15,7 +15,7 @@ export const courses = {
         week: [
             {
                 id: 1,
-                dates: "Jan 14 - Jan 20",
+                dates: "Jan 12 - Jan 18",
                 class: [
                     "Icebreaker: Have Fun with Virtual Backgrounds",
                     "Discussing Your Objectives: What do you want to achieve in this class?",
@@ -27,6 +27,23 @@ export const courses = {
                 ],
                 attachments: [
                     "https://forms.gle/MiHJc87FNSAHYoYy6",
+                ]
+            },
+            {
+                id: 2,
+                dates: "Jan 19 - Jan 25",
+                class: [
+                    "Vocabulary Worksheet - Chapters 1-3",
+                    "Read Holes Chapters 1-3",
+                    "PowerPoint - Analysis of Chapters 1-3",
+                    "Book club discussion"
+                ],
+                homework: [
+                    "Week 1 Corrections",
+                    "Holes Chapter 1-3 Questions 1-5"
+                ],
+                attachments: [
+                    "https://forms.gle/X8pPL3MaQUdqzBgm8",
                 ]
             },
         ]
