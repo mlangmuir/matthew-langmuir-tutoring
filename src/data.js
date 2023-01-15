@@ -47,6 +47,20 @@ export const courses = {
                     "https://forms.gle/X8pPL3MaQUdqzBgm8",
                 ]
             },
+            ,
+            {
+                id: 3,
+                dates: "Jan 26 - Feb 1",
+                class: [
+                    "Stanley's Trial - Mock Trial Activity",
+                ],
+                homework: [
+                    "No homework this week. Enjoy!"
+                ],
+                attachments: [
+                    "",
+                ]
+            },
         ]
     },
 
