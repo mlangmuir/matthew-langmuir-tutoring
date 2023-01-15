@@ -43,6 +43,9 @@ export const courses = {
             "Quizzes: 25%",
             "Group project: 25%"
         ],
+        attachments: [
+            {title: "Hamlet", link: "https://drive.google.com/file/d/1lhZ9ogUyQ5S6o2pph5G_KrTBX-fOxMSl/view?usp=sharing"},
+        ],
         imageSrc: '/assets/hamlet-bg.jpeg',
         week: [
             {
@@ -58,6 +61,22 @@ export const courses = {
                 ],
                 attachments: [
                     "https://forms.gle/NShvWhdDEA5K5wVVA",
+                ]
+            },
+            {
+                id: 2,
+                dates: "Jan 21 - Jan 27",
+                class: [
+                    "Review Act I Scene 1 Homework Questions",
+                    "Class Discussion: Act I Scene 1",
+                    "Read Act II Scene 2",
+                    "Lecture: Analysis of Act II Scene 2"
+                ],
+                homework: [
+                    "100-word composition about Hamlet's soliloquy in Act II Scene 2"
+                ],
+                attachments: [
+                    "https://forms.gle/KFEgQPLxwCAeFvst9",
                 ]
             },
         ]
