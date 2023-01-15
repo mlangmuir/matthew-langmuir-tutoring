@@ -70,13 +70,31 @@ export const courses = {
                     "Review Act I Scene 1 Homework Questions",
                     "Class Discussion: Act I Scene 1",
                     "Read Act II Scene 2",
-                    "Lecture: Analysis of Act II Scene 2"
+                    "Lecture: Analysis of Act II Scene 2",
+                    "Act II Scene 2 Vocabulary Worksheet"
                 ],
                 homework: [
                     "100-word composition about Hamlet's soliloquy in Act II Scene 2"
                 ],
                 attachments: [
                     "https://forms.gle/KFEgQPLxwCAeFvst9",
+                ]
+            },
+            {
+                id: 3,
+                dates: "Jan 28 - Feb 3",
+                class: [
+                    "Homework Review: Analyze Hamlet's first soliloquy",
+                    "Watch Kenneth Branagh Perform the Soliloquy in Hamlet (1996)",
+                    "Act I Scene 2 Discussion Questions",
+                    "Read Act I Scene 3",
+                    "Act I Scene 3 Quotes Exercise"
+                ],
+                homework: [
+                    "Act II Scene 3 Questions 1-4"
+                ],
+                attachments: [
+                    "https://forms.gle/qbTULHg89kcyDR9J8",
                 ]
             },
         ]
