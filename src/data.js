@@ -52,14 +52,12 @@ export const courses = {
                 id: 3,
                 dates: "Jan 26 - Feb 1",
                 class: [
+                    "Sentence correction exercises",
                     "Group Activity - Mock Trial Preparation",
                 ],
                 homework: [
-                    "Finish preparing for mock trial"
+                    "No homework this week!"
                 ],
-                attachments: [
-                    "",
-                ]
             },
         ]
     },
