@@ -52,6 +52,7 @@ export const courses = {
                 dates: "Jan 26 - Feb 1",
                 class: [
                     "Sentence correction exercises",
+                    "Dictation",
                     "Group Activity - Mock Trial Preparation",
                 ],
                 homework: [
@@ -59,6 +60,21 @@ export const courses = {
                 ],
                 attachments: [
                     "",
+                ]
+            },
+            {
+                id: 4,
+                dates: "Feb 2 - Feb 8",
+                class: [
+                    "Group Activity - Mock Trial Preparation",
+                    "Mock Trial Presentation",
+                    "Read Holes Chapters 4-5",
+                ],
+                homework: [
+                    "Holes Chapter 4-5 Questions 1-5"
+                ],
+                attachments: [
+                    "https://forms.gle/YztvE4k1u5xLJVo39",
                 ]
             },
         ]
@@ -101,9 +117,9 @@ export const courses = {
                 class: [
                     "Review Act I Scene 1 Homework Questions",
                     "Class Discussion: Act I Scene 1",
-                    "Read Act II Scene 2",
+                    "Read Act I Scene 2",
                     "Lecture: Analysis of Act II Scene 2",
-                    "Act II Scene 2 Vocabulary Worksheet"
+                    "Act I Scene 2 Vocabulary Worksheet"
                 ],
                 homework: [
                     "100-word composition about Hamlet's soliloquy in Act II Scene 2"
@@ -123,10 +139,27 @@ export const courses = {
                     "Act I Scene 3 Quotes Exercise"
                 ],
                 homework: [
-                    "Act II Scene 3 Questions 1-4"
+                    "Act I Scene 3 Questions 1-4"
                 ],
                 attachments: [
                     "https://forms.gle/qbTULHg89kcyDR9J8",
+                ]
+            },
+            {
+                id: 4,
+                dates: "Feb 4 - Feb 10",
+                class: [
+                    "Week 2 Writing Assignment: Sentence Correction Exercise",
+                    "Act I Scene 3 Discussion Questions",
+                    "Read Act I Scenes 4-5",
+                    "Lecture: Act I Analysis"
+                ],
+                homework: [
+                    "Act I Scene 4-5 Questions 1-4",
+                    "Study for next week's Act I Quiz"
+                ],
+                attachments: [
+                    "https://forms.gle/cEayDF91nkxwpBVL7",
                 ]
             },
         ]
