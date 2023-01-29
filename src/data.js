@@ -58,6 +58,9 @@ export const courses = {
                 homework: [
                     "No homework this week!"
                 ],
+                attachments: [
+                    "",
+                ]
             },
         ]
     },
