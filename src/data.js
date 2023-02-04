@@ -77,6 +77,22 @@ export const courses = {
                     "https://forms.gle/YztvE4k1u5xLJVo39",
                 ]
             },
+            {
+                id: 5,
+                dates: "Feb 9 - Feb 15",
+                class: [
+                    "Week 4 Homework Review",
+                    "Read Holes Chapters 6-7",
+                    "Analysis of Chapters 6-7",
+                    "Group Activity: Write your own fairy tale"
+                ],
+                homework: [
+                    "Holes Chapter 6-7 Questions 1-4"
+                ],
+                attachments: [
+                    "https://forms.gle/nvuTXW4CAhh3GrH4A",
+                ]
+            },
         ]
     },
 
@@ -160,6 +176,24 @@ export const courses = {
                 ],
                 attachments: [
                     "https://forms.gle/cEayDF91nkxwpBVL7",
+                ]
+            },
+            {
+                id: 5,
+                dates: "Feb 11 - Feb 17",
+                class: [
+                    "Week 4 Homework Review",
+                    "Watch The Ghost's Monologue from Hamlet Movie",
+                    "Act I Scenes 4-5 Discussion Questions",
+                    "Act I Kahoot Review",
+                    "Act I Quiz",
+                    "Read Act II Scene 1"
+                ],
+                homework: [
+                    "Act II Scene 1 Questions 1-3",
+                ],
+                attachments: [
+                    "https://forms.gle/i2otGb8aVKUxFaqP8",
                 ]
             },
         ]
